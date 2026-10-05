@@ -180,23 +180,139 @@ export default function ProductDetailModal() {
             </span>
           </div>
 
+          {/* Simulador de Pago Mixto / Adelanto en Efectivo (Opcional) */}
+          <div className="bg-gradient-to-br from-slate-850 to-slate-900 p-4 sm:p-5 rounded-2xl border border-amber-500/40 shadow-lg relative">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2.5">
+              <div>
+                <span className="text-xs sm:text-sm font-extrabold text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+                  <DollarSign className="w-4 h-4 text-amber-400" />
+                  Pago Mixto / Adelanto en Efectivo (Opcional)
+                </span>
+                <span className="text-[11px] text-slate-400 block mt-0.5">
+                  Si el cliente abona una parte en efectivo/transferencia (0% recargo), el 6% y las cuotas se calculan <strong className="text-slate-200">únicamente sobre el saldo restante</strong>.
+                </span>
+              </div>
+              <div className="text-left sm:text-right shrink-0">
+                <span className={`text-xs font-black px-2.5 py-1 rounded-xl uppercase tracking-wider border ${
+                  downPayment > 0
+                    ? 'bg-amber-500/20 text-amber-300 border-amber-500/40 shadow-sm'
+                    : 'bg-slate-800 text-slate-400 border-slate-700'
+                }`}>
+                  {downPayment > 0 ? `Adelanto: ${formatCurrency(downPayment)}` : '100% con otro método'}
+                </span>
+              </div>
+            </div>
+
+            {/* Input y botones rápidos */}
+            <div className="space-y-2.5">
+              <div className="flex items-center gap-2">
+                <div className="relative flex-1">
+                  <DollarSign className="w-4 h-4 absolute left-3 top-2.5 text-amber-400 font-bold" />
+                  <input
+                    type="number"
+                    min="0"
+                    max={currentCashPrice}
+                    step="10"
+                    value={downPayment || ''}
+                    onChange={(e) => setDownPayment(Math.min(currentCashPrice, Math.max(0, Number(e.target.value) || 0)))}
+                    placeholder="Monto de adelanto (ej. 500)"
+                    className="w-full pl-9 pr-3 py-2 bg-slate-950 text-white font-bold rounded-xl border border-slate-700 focus:border-amber-400 focus:outline-none text-sm placeholder:text-slate-600 shadow-inner"
+                  />
+                </div>
+                {downPayment > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setDownPayment(0)}
+                    className="px-3.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs rounded-xl border border-slate-700 font-bold transition-colors"
+                  >
+                    Limpiar ($0)
+                  </button>
+                )}
+              </div>
+
+              {/* Botones de porcentaje de adelanto rápido */}
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider mr-1">
+                  Atajos rápidos:
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setDownPayment(Math.round(currentCashPrice * 0.25))}
+                  className="text-[11px] px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-amber-300 rounded-lg border border-slate-700 font-semibold transition-colors"
+                >
+                  25% ({formatCurrency(Math.round(currentCashPrice * 0.25))})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setDownPayment(Math.round(currentCashPrice * 0.50))}
+                  className="text-[11px] px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-amber-300 rounded-lg border border-slate-700 font-semibold transition-colors"
+                >
+                  50% ({formatCurrency(Math.round(currentCashPrice * 0.50))})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setDownPayment(Math.round(currentCashPrice * 0.75))}
+                  className="text-[11px] px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-amber-300 rounded-lg border border-slate-700 font-semibold transition-colors"
+                >
+                  75% ({formatCurrency(Math.round(currentCashPrice * 0.75))})
+                </button>
+              </div>
+
+              {/* Resumen explicativo cuando hay adelanto */}
+              {downPayment > 0 && (
+                <div className="mt-2.5 p-3 bg-slate-950/80 rounded-xl border border-amber-500/30 space-y-1.5 text-xs">
+                  <div className="flex items-center justify-between text-slate-300">
+                    <span className="flex items-center gap-1.5 font-medium">
+                      <Banknote className="w-3.5 h-3.5 text-emerald-400" />
+                      Adelanto Efectivo / Transferencia:
+                    </span>
+                    <span className="font-extrabold text-emerald-400">
+                      {formatCurrency(downPayment)} <span className="text-[10px] text-emerald-300 font-normal">(0% recargo)</span>
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between text-slate-300">
+                    <span className="flex items-center gap-1.5 font-medium">
+                      <CreditCard className="w-3.5 h-3.5 text-blue-400" />
+                      Saldo restante a cancelar con otro método:
+                    </span>
+                    <span className="font-extrabold text-blue-400">
+                      {formatCurrency(calculation.remainingAmount)}
+                    </span>
+                  </div>
+                  <div className="pt-1.5 border-t border-slate-800 text-[11px] text-amber-300/90 font-medium flex items-center gap-1">
+                    <span>💡</span>
+                    <span>El 6% de recargo en un pago o comisiones en cuotas aplican <strong>solo sobre los {formatCurrency(calculation.remainingAmount)} restantes</strong>.</span>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
           {/* Tarjetas de Métodos de 1 Solo Pago (Efectivo vs Tarjeta +6%) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {/* Efectivo / Transferencia */}
-            <div className="bg-gradient-to-br from-emerald-950/40 via-slate-800 to-slate-850 p-4 rounded-2xl border border-emerald-500/40 shadow-sm relative">
-              <div className="flex items-center justify-between mb-1">
-                <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
-                  <Banknote className="w-4 h-4 text-emerald-400" />
-                  Efectivo / Transferencia
-                </span>
-                <span className="text-[10px] bg-emerald-500/20 text-emerald-300 font-bold px-1.5 py-0.5 rounded">
-                  0% Recargo
-                </span>
+            <div className="bg-gradient-to-br from-emerald-950/40 via-slate-800 to-slate-850 p-4 rounded-2xl border border-emerald-500/40 shadow-sm relative flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+                    <Banknote className="w-4 h-4 text-emerald-400" />
+                    Efectivo / Transferencia
+                  </span>
+                  <span className="text-[10px] bg-emerald-500/20 text-emerald-300 font-bold px-1.5 py-0.5 rounded">
+                    0% Recargo
+                  </span>
+                </div>
+                <div className="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">
+                  {formatCurrency(currentCashPrice)}
+                </div>
+                {downPayment > 0 && (
+                  <div className="text-[11px] text-slate-300 mt-1">
+                    Adelanto: <strong className="text-emerald-400">{formatCurrency(downPayment)}</strong>
+                  </div>
+                )}
               </div>
-              <div className="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">
-                {formatCurrency(currentCashPrice)}
-              </div>
-              <div className="flex items-center justify-between mt-2 pt-2 border-t border-slate-700/40">
+
+              <div className="flex items-center justify-between mt-3 pt-2.5 border-t border-slate-700/40">
                 <span className="text-[11px] text-slate-400">Precio base de lista</span>
                 <label className="flex items-center gap-1.5 cursor-pointer text-xs text-slate-300">
                   <input
@@ -211,22 +327,39 @@ export default function ProductDetailModal() {
             </div>
 
             {/* Tarjeta 1 solo pago */}
-            <div className="bg-gradient-to-br from-blue-950/40 via-slate-800 to-slate-850 p-4 rounded-2xl border border-blue-500/40 shadow-sm relative">
-              <div className="flex items-center justify-between mb-1">
-                <span className="text-xs font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
-                  <CreditCard className="w-4 h-4 text-blue-400" />
-                  Tarjeta u otro método (1 Pago)
-                </span>
-                <span className="text-[10px] bg-blue-500/20 text-blue-300 font-bold px-1.5 py-0.5 rounded">
-                  +{calculation.baseRatePercent}% Recargo
-                </span>
+            <div className="bg-gradient-to-br from-blue-950/40 via-slate-800 to-slate-850 p-4 rounded-2xl border border-blue-500/40 shadow-sm relative flex flex-col justify-between">
+              <div>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-xs font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
+                    <CreditCard className="w-4 h-4 text-blue-400" />
+                    Tarjeta u otro método 1 pago:
+                  </span>
+                  <span className="text-[10px] bg-blue-500/20 text-blue-300 font-bold px-1.5 py-0.5 rounded">
+                    +{calculation.baseRatePercent}% Recargo
+                  </span>
+                </div>
+                <div className="text-2xl sm:text-3xl font-black text-blue-300 mt-1">
+                  {formatCurrency(calculation.cardSingleTotal)}
+                </div>
+                {downPayment > 0 ? (
+                  <div className="text-[11px] text-slate-300 mt-1 space-y-0.5">
+                    <div>
+                      Recargo 6% al saldo ({formatCurrency(calculation.remainingAmount)}): <strong className="text-blue-300">+{formatCurrency(calculation.cardSingleSurcharge)}</strong>
+                    </div>
+                    <div className="text-amber-300 font-semibold">
+                      Total compra combinada: {formatCurrency(calculation.cardSingleGrandTotal)}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="text-[11px] text-slate-400 mt-1">
+                    Recargo 6%: {formatCurrency(calculation.cardSingleSurcharge)}
+                  </div>
+                )}
               </div>
-              <div className="text-2xl sm:text-3xl font-black text-blue-300 mt-1">
-                {formatCurrency(calculation.cardSingleTotal)}
-              </div>
-              <div className="flex items-center justify-between mt-2 pt-2 border-t border-slate-700/40">
+
+              <div className="flex items-center justify-between mt-3 pt-2.5 border-t border-slate-700/40">
                 <span className="text-[11px] text-slate-400">
-                  Recargo: {formatCurrency(calculation.cardSingleSurcharge)}
+                  {downPayment > 0 ? 'Saldo en tarjeta' : '1 solo pago'}
                 </span>
                 <label className="flex items-center gap-1.5 cursor-pointer text-xs text-slate-300">
                   <input
@@ -241,67 +374,20 @@ export default function ProductDetailModal() {
             </div>
           </div>
 
-          {/* Simulador de Prima / Anticipo */}
-          <div className="bg-slate-800/70 p-3.5 sm:p-4 rounded-2xl border border-slate-700/60">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
-              <div>
-                <span className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
-                  <DollarSign className="w-4 h-4 text-amber-400" />
-                  Prima / Anticipo en Efectivo (Opcional):
-                </span>
-                <span className="text-[11px] text-slate-400">
-                  Si el cliente da un enganche, las cuotas se calculan sobre el saldo restante.
-                </span>
-              </div>
-              <div className="text-right">
-                <span className="text-xs font-bold text-amber-400">
-                  {downPayment > 0 ? `Prima: ${formatCurrency(downPayment)}` : 'Sin prima (100% financiado)'}
-                </span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <div className="relative flex-1">
-                <DollarSign className="w-4 h-4 absolute left-3 top-2.5 text-slate-400" />
-                <input
-                  type="number"
-                  min="0"
-                  max={currentCashPrice}
-                  step="20"
-                  value={downPayment || ''}
-                  onChange={(e) => setDownPayment(Math.min(currentCashPrice, Math.max(0, Number(e.target.value) || 0)))}
-                  placeholder="Ej. 150"
-                  className="w-full pl-9 pr-3 py-1.5 bg-slate-900 text-white font-bold rounded-xl border border-slate-700 focus:border-amber-400 focus:outline-none text-sm"
-                />
-              </div>
-              {downPayment > 0 && (
-                <button
-                  onClick={() => setDownPayment(0)}
-                  className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs rounded-xl border border-slate-700 font-semibold"
-                >
-                  Quitar
-                </button>
-              )}
-            </div>
-
-            {downPayment > 0 && (
-              <div className="mt-2 text-xs text-slate-300 flex justify-between bg-slate-900/60 p-2 rounded-xl">
-                <span>Saldo a financiar con tarjeta:</span>
-                <span className="font-extrabold text-emerald-400">{formatCurrency(calculation.financedAmount)}</span>
-              </div>
-            )}
-          </div>
-
           {/* Sección de Selección de Cuotas con Tarjeta */}
           <div>
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2.5">
               <div>
                 <h4 className="text-sm font-bold uppercase tracking-wider text-slate-200 flex items-center gap-1.5">
                   <Calculator className="w-4 h-4 text-emerald-400" />
-                  Planes de Cuotas con Tarjeta
+                  {downPayment > 0
+                    ? `Planes en Cuotas con Tarjeta (Sobre Saldo de ${formatCurrency(calculation.remainingAmount)})`
+                    : 'Planes de Cuotas con Tarjeta'}
                 </h4>
                 <p className="text-[11px] text-slate-400">
-                  Selecciona la cuota deseada o marca varias para cotizarlas al cliente.
+                  {downPayment > 0
+                    ? `Las cuotas se calculan únicamente sobre los ${formatCurrency(calculation.remainingAmount)} restantes a financiar.`
+                    : 'Selecciona la cuota deseada o marca varias para cotizarlas al cliente.'}
                 </p>
               </div>
 
@@ -391,7 +477,9 @@ export default function ProductDetailModal() {
                     <th className="py-2.5 px-3 text-center w-10">Enviar</th>
                     <th className="py-2.5 px-3">Plazo</th>
                     <th className="py-2.5 px-2 text-center">Tasa Total</th>
-                    <th className="py-2.5 px-2 text-right">Total Financiado</th>
+                    <th className="py-2.5 px-2 text-right">
+                      {downPayment > 0 ? 'Saldo Financiado' : 'Total Financiado'}
+                    </th>
                     <th className="py-2.5 px-3 text-right">Cuota Mensual</th>
                   </tr>
                 </thead>
@@ -439,7 +527,14 @@ export default function ProductDetailModal() {
                           {item.effectiveRatePercent}%
                         </td>
                         <td className="py-2.5 sm:py-3 px-2 text-right font-medium text-slate-300">
-                          {formatCurrency(item.grandTotal)}
+                          {downPayment > 0 ? (
+                            <div>
+                              <span className="font-bold text-emerald-400">{formatCurrency(item.financedTotal)}</span>
+                              <span className="text-[10px] text-slate-400 block">Total: {formatCurrency(item.grandTotal)}</span>
+                            </div>
+                          ) : (
+                            <span>{formatCurrency(item.grandTotal)}</span>
+                          )}
                         </td>
                         <td className="py-2.5 sm:py-3 px-3 text-right">
                           <span

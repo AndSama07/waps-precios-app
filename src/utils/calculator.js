@@ -20,24 +20,27 @@ export const DEFAULT_COMMISSION = {
 export function calculateInstallments(cashPrice, commissionSettings = DEFAULT_COMMISSION, downPayment = 0) {
   const price = Math.max(0, Number(cashPrice) || 0);
   const down = Math.min(price, Math.max(0, Number(downPayment) || 0));
-  const financedAmount = price - down;
+  const remainingAmount = price - down; // Saldo que se pagará con otro método / tarjeta
 
   const baseRate = commissionSettings?.baseRate ?? DEFAULT_COMMISSION.baseRate;
   const termsList = commissionSettings?.terms ?? DEFAULT_COMMISSION.terms;
 
-  // 1 Solo Pago con Tarjeta / Otros métodos (Recargo base del 6%)
+  // 1 Solo Pago con Tarjeta / Otros métodos
+  // Si hay adelanto/pago mixto, el recargo del 6% se calcula EXCLUSIVAMENTE sobre el saldo restante:
   const cardSingleMultiplier = 1 + baseRate;
-  const cardSingleTotal = Math.round(price * cardSingleMultiplier * 100) / 100;
-  const cardSingleSurcharge = Math.round((cardSingleTotal - price) * 100) / 100;
+  const cardSingleSurcharge = Math.round(remainingAmount * baseRate * 100) / 100;
+  const cardSingleRemainingTotal = Math.round(remainingAmount * cardSingleMultiplier * 100) / 100;
+  const cardSingleGrandTotal = Math.round((down + cardSingleRemainingTotal) * 100) / 100;
 
   // Cuotas con Tarjeta (CUADRO COMISION)
+  // Las cuotas y el margen de plazo se calculan estrictamente sobre el saldo restante:
   const breakdown = termsList.map(term => {
     const termRate = term.rate;
     const totalRate = baseRate + termRate;
     const multiplier = 1 + totalRate;
-    const financedTotal = financedAmount * multiplier;
-    const grandTotal = down + financedTotal;
-    const monthlyFee = financedTotal / term.months;
+    const financedTotal = Math.round(remainingAmount * multiplier * 100) / 100;
+    const grandTotal = Math.round((down + financedTotal) * 100) / 100;
+    const monthlyFee = Math.round((financedTotal / term.months) * 100) / 100;
 
     return {
       months: term.months,
@@ -45,19 +48,21 @@ export function calculateInstallments(cashPrice, commissionSettings = DEFAULT_CO
       termRate,
       effectiveRatePercent: Math.round(totalRate * 1000) / 10, // ej. 8.5%, 14.0%
       multiplier,
-      financedAmount,
-      financedTotal: Math.round(financedTotal * 100) / 100,
-      grandTotal: Math.round(grandTotal * 100) / 100,
-      monthlyFee: Math.round(monthlyFee * 100) / 100
+      financedAmount: remainingAmount,
+      financedTotal,
+      grandTotal,
+      monthlyFee
     };
   });
 
   return {
     cashPrice: price,
     downPayment: down,
-    financedAmount,
+    financedAmount: remainingAmount,
+    remainingAmount,
     baseRatePercent: Math.round(baseRate * 1000) / 10,
-    cardSingleTotal,
+    cardSingleTotal: cardSingleRemainingTotal,
+    cardSingleGrandTotal,
     cardSingleSurcharge,
     cardSingleMultiplier,
     breakdown
@@ -106,19 +111,26 @@ export function generateWhatsAppMessage(
   if (product.brand) message += `🏷️ *Marca:* ${product.brand}\n`;
   if (gradeLabel) message += `✨ *Condición:* ${gradeLabel}\n`;
 
-  // Métodos de 1 solo pago
-  message += `\n💵 *PAGO DE CONTADO / 1 SOLO PAGO:*\n`;
-  if (includeCash) {
-    message += `• *Efectivo o Transferencia:* ${formatCurrency(price)}\n`;
-  }
-  if (includeCardSingle) {
-    message += `• *Tarjeta u otro método 1 pago:* ${formatCurrency(calculation.cardSingleTotal)}\n`;
-  }
-
-  // Anticipo / Prima si aplica
+  // Si hay adelanto o pago mixto
   if (downPayment > 0) {
-    message += `\n💵 *Prima / Anticipo en efectivo:* ${formatCurrency(downPayment)}\n`;
-    message += `💳 *Saldo a financiar con tarjeta:* ${formatCurrency(calculation.financedAmount)}\n`;
+    message += `💰 *Precio Total (Contado):* ${formatCurrency(price)}\n`;
+    message += `\n💵 *PAGO MIXTO / ADELANTO:*\n`;
+    message += `• *Adelanto Efectivo / Transferencia:* ${formatCurrency(downPayment)} (0% recargo)\n`;
+    message += `• *Saldo restante a cancelar con otro método:* ${formatCurrency(calculation.remainingAmount)}\n`;
+
+    if (includeCardSingle) {
+      message += `\n💳 *SALDO RESTANTE EN 1 SOLO PAGO:*\n`;
+      message += `• *Tarjeta u otro método 1 pago:* ${formatCurrency(calculation.cardSingleTotal)} (Total con adelanto: ${formatCurrency(calculation.cardSingleGrandTotal)})\n`;
+    }
+  } else {
+    // Métodos de 1 solo pago normal
+    message += `\n💵 *PAGO DE CONTADO / 1 SOLO PAGO:*\n`;
+    if (includeCash) {
+      message += `• *Efectivo o Transferencia:* ${formatCurrency(price)}\n`;
+    }
+    if (includeCardSingle) {
+      message += `• *Tarjeta u otro método 1 pago:* ${formatCurrency(calculation.cardSingleTotal)}\n`;
+    }
   }
 
   // Filtrar las cuotas a las que el vendedor haya seleccionado
@@ -128,15 +140,19 @@ export function generateWhatsAppMessage(
 
   if (termsToShow.length > 0) {
     const isFiltered = selectedMonths && selectedMonths.length > 0;
-    message += `\n💳 *PLANES EN CUOTAS CON TARJETA${isFiltered ? ' SELECCIONADOS' : ''}:*\n`;
-    termsToShow.forEach(item => {
-      message += `• *${item.label}:* ${item.months} cuotas de *${formatCurrency(item.monthlyFee)}*`;
-      if (downPayment > 0) {
-        message += ` (Total financiado: ${formatCurrency(item.grandTotal)})\n`;
-      } else {
+    if (downPayment > 0) {
+      message += `\n💳 *PLANES EN CUOTAS CON TARJETA (Calculadas sobre saldo de ${formatCurrency(calculation.remainingAmount)})${isFiltered ? ' SELECCIONADOS' : ''}:*\n`;
+      termsToShow.forEach(item => {
+        message += `• *${item.label}:* ${item.months} cuotas de *${formatCurrency(item.monthlyFee)}*`;
+        message += ` (Financiado saldo: ${formatCurrency(item.financedTotal)} | Total con adelanto: ${formatCurrency(item.grandTotal)})\n`;
+      });
+    } else {
+      message += `\n💳 *PLANES EN CUOTAS CON TARJETA${isFiltered ? ' SELECCIONADOS' : ''}:*\n`;
+      termsToShow.forEach(item => {
+        message += `• *${item.label}:* ${item.months} cuotas de *${formatCurrency(item.monthlyFee)}*`;
         message += ` (Total: ${formatCurrency(item.grandTotal)})\n`;
-      }
-    });
+      });
+    }
   }
 
   message += `\n━━━━━━━━━━━━━━━━━━━━━━\n`;
