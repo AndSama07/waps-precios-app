@@ -12,6 +12,8 @@ export default function CatalogView() {
     setSelectedCategory,
     selectedBrand,
     setSelectedBrand,
+    selectedCondition,
+    setSelectedCondition,
     selectedTerm,
     setSelectedTerm,
     inStockOnly,
@@ -36,6 +38,40 @@ export default function CatalogView() {
 
   return (
     <div className="max-w-7xl mx-auto px-3 sm:px-6 py-4 space-y-4">
+      {/* Selector de Condición: Todos / Nuevos / Usados */}
+      <div className="flex items-center gap-1.5 p-1 bg-slate-900 border border-slate-800 rounded-2xl shadow-sm">
+        <button
+          onClick={() => setSelectedCondition('ALL')}
+          className={`flex-1 py-1.5 px-2.5 rounded-xl text-xs font-bold transition-all text-center ${
+            selectedCondition === 'ALL'
+              ? 'bg-slate-800 text-white shadow-sm border border-slate-700/80'
+              : 'text-slate-400 hover:text-white'
+          }`}
+        >
+          Todos
+        </button>
+        <button
+          onClick={() => setSelectedCondition('NUEVO')}
+          className={`flex-1 py-1.5 px-2.5 rounded-xl text-xs font-bold transition-all text-center flex items-center justify-center gap-1 ${
+            selectedCondition === 'NUEVO'
+              ? 'bg-emerald-600 text-white shadow-sm shadow-emerald-500/20'
+              : 'text-slate-400 hover:text-emerald-400'
+          }`}
+        >
+          <span>✨ Nuevos</span>
+        </button>
+        <button
+          onClick={() => setSelectedCondition('USADO')}
+          className={`flex-1 py-1.5 px-2.5 rounded-xl text-xs font-bold transition-all text-center flex items-center justify-center gap-1 ${
+            selectedCondition === 'USADO'
+              ? 'bg-amber-500 text-slate-950 shadow-sm shadow-amber-500/20 font-black'
+              : 'text-slate-400 hover:text-amber-400'
+          }`}
+        >
+          <span>📱 Usados (95-100%)</span>
+        </button>
+      </div>
+
       {/* Barra de Plazos Rápidos de Cotización */}
       <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-2.5 sm:p-3 shadow-md">
         <div className="flex items-center justify-between mb-2">

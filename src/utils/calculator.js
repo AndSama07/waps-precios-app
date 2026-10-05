@@ -94,14 +94,9 @@ export function generateWhatsAppMessage(
     includeCardSingle = true
   } = options;
 
-  const price = selectedGrade ? (product.variants?.[selectedGrade] || product.cashPrice) : product.cashPrice;
-  const gradeLabel = {
-    newPrice: 'NUEVO SELLADO',
-    used95_100: 'USADO (Grado A 95%-100%)',
-    used90_94: 'USADO (Grado B 90%-94%)',
-    used85_89: 'USADO (Grado C 85%-89%)',
-    tradeIn: 'TRADE-IN'
-  }[selectedGrade] || (product.sourceSheet === 'WAPS' && product.variants?.newPrice ? 'NUEVO' : '');
+  const price = product.cashPrice;
+  const isUsed = product.condition === 'USADO' || (product.name && product.name.includes('(USADO)'));
+  const gradeLabel = isUsed ? 'USADO (Grado A 95%-100%)' : 'NUEVO SELLADO';
 
   const calculation = calculateInstallments(price, commissionSettings, downPayment);
 

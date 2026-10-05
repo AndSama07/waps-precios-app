@@ -16,6 +16,7 @@ export async function initDb(sql) {
       name TEXT NOT NULL,
       brand TEXT,
       category TEXT,
+      condition TEXT DEFAULT 'NUEVO',
       cash_price NUMERIC NOT NULL,
       stock INTEGER DEFAULT 0,
       code TEXT,
@@ -25,6 +26,12 @@ export async function initDb(sql) {
       updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
     );
   `;
+
+  try {
+    await sql`ALTER TABLE products ADD COLUMN IF NOT EXISTS condition TEXT DEFAULT 'NUEVO';`;
+  } catch (e) {
+    console.warn('Columna condition ya existe o error menor:', e.message);
+  }
 
   // Crear tabla de configuraciones (tasas y comisiones)
   await sql`

@@ -2,5662 +2,6231 @@
   {
     "id": "prod_1",
     "name": "IPHONE 18 PRO MAX 256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1699.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1699.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_2",
     "name": "IPHONE 18 PRO MAX 512GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1969.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1969.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_3",
     "name": "IPHONE 18 PRO MAX 1TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 2479.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2479.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_4",
     "name": "IPHONE 18 PRO MAX 2TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 3239.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 3239.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_5",
     "name": "IPHONE 18 PRO 256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1579.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1579.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_6",
     "name": "IPHONE 18 PRO  512GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1839.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1839.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_7",
     "name": "IPHONE 18 PRO 1TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 2349.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2349.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_8",
     "name": "IPHONE 18 PRO 2TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 3119.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 3119.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_9",
     "name": "IPHONE DUO 256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 2599.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2599.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_10",
     "name": "IPHONE DUO 512GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 2859.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2859.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_11",
     "name": "IPHONE DUO 1TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 3369.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 3369.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_12",
     "name": "IPHONE DUO 2TB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 4139.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 4139.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_13",
+    "id": "prod_13_new",
     "name": "IPHONE 17 PRO MAX 256GB ESIM",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1450,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1450,
-      "used95_100": 1330,
-      "used90_94": 1315,
-      "used85_89": 1285,
-      "tradeIn": 985
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_14",
-    "name": "IPHONE 17 PRO MAX 256GB SIM FISICO",
-    "category": "IPHONE",
+    "id": "prod_13_used",
+    "name": "IPHONE 17 PRO MAX 256GB ESIM (USADO)",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1330,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_14_new",
+    "name": "IPHONE 17 PRO MAX 256GB SIM FISICO",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1560,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1560,
-      "used95_100": 1460,
-      "used90_94": 1445,
-      "used85_89": 1415,
-      "tradeIn": 948
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_15",
-    "name": "IPHONE 17 PRO MAX 512GB",
-    "category": "IPHONE",
+    "id": "prod_14_used",
+    "name": "IPHONE 17 PRO MAX 256GB SIM FISICO (USADO)",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1460,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_15_new",
+    "name": "IPHONE 17 PRO MAX 512GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1660,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1660,
-      "used95_100": 1540,
-      "used90_94": 1525,
-      "used85_89": 1495,
-      "tradeIn": 1140
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_16",
-    "name": "IPHONE 17 PRO MAX 1TB",
-    "category": "IPHONE",
+    "id": "prod_15_used",
+    "name": "IPHONE 17 PRO MAX 512GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 1880,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1880,
-      "used95_100": 1760,
-      "used90_94": 1745,
-      "used85_89": 1715,
-      "tradeIn": 1303
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_17",
-    "name": "IPHONE 17 PRO MAX 2TB",
     "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 2350,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 2350,
-      "used95_100": 2230,
-      "used90_94": 2215,
-      "used85_89": 2185,
-      "tradeIn": 1651
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_18",
-    "name": "IPHONE 17 PRO 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 1310,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1310,
-      "used95_100": 1190,
-      "used90_94": 1175,
-      "used85_89": 1145,
-      "tradeIn": 881
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_19",
-    "name": "IPHONE 17 PRO 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "condition": "USADO",
     "cashPrice": 1540,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1540,
-      "used95_100": 1420,
-      "used90_94": 1405,
-      "used85_89": 1375,
-      "tradeIn": 1051
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_20",
+    "id": "prod_16_new",
+    "name": "IPHONE 17 PRO MAX 1TB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1880,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_16_used",
+    "name": "IPHONE 17 PRO MAX 1TB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1760,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_17_new",
+    "name": "IPHONE 17 PRO MAX 2TB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 2350,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_17_used",
+    "name": "IPHONE 17 PRO MAX 2TB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 2230,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_18_new",
+    "name": "IPHONE 17 PRO 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1310,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_18_used",
+    "name": "IPHONE 17 PRO 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1190,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_19_new",
+    "name": "IPHONE 17 PRO 512GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1540,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_19_used",
+    "name": "IPHONE 17 PRO 512GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1420,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_20_new",
     "name": "IPHONE 17 AIR 256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 1040,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1040,
-      "used95_100": 920,
-      "used90_94": 905,
-      "used85_89": 875,
-      "tradeIn": 681
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_21",
-    "name": "IPHONE 17 AIR 512GB",
-    "category": "IPHONE",
+    "id": "prod_20_used",
+    "name": "IPHONE 17 AIR 256GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 1380,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1380,
-      "used95_100": 1260,
-      "used90_94": 1245,
-      "used85_89": 1215,
-      "tradeIn": 933
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_22",
-    "name": "IPHONE 17 AIR 1TB",
     "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 1600,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1600,
-      "used95_100": 1480,
-      "used90_94": 1465,
-      "used85_89": 1435,
-      "tradeIn": 1096
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_23",
-    "name": "IPHONE 17 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 1030,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1030,
-      "used95_100": 910,
-      "used90_94": 895,
-      "used85_89": 865,
-      "tradeIn": 674
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_24",
-    "name": "IPHONE 17 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 1250,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 1250,
-      "used95_100": 1130,
-      "used90_94": 1115,
-      "used85_89": 1085,
-      "tradeIn": 837
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_25",
-    "name": "IPHONE 17E 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 690,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 690,
-      "used95_100": 590,
-      "used90_94": 575,
-      "used85_89": 545,
-      "tradeIn": 437
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_26",
-    "name": "IPHONE 16 PM 256",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 960,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 960,
-      "used90_94": 945,
-      "used85_89": 915,
-      "tradeIn": 711
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_27",
-    "name": "IPHONE 16 PM 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 1040,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 1040,
-      "used90_94": 1025,
-      "used85_89": 995,
-      "tradeIn": 770
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_28",
-    "name": "IPHONE 16 PRO 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 860,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 860,
-      "used90_94": 845,
-      "used85_89": 815,
-      "tradeIn": 637
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_29",
-    "name": "IPHONE 16 PRO 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 910,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 910,
-      "used90_94": 895,
-      "used85_89": 865,
-      "tradeIn": 674
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_30",
-    "name": "IPHONE 16 PRO 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 960,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 960,
-      "used90_94": 945,
-      "used85_89": 915,
-      "tradeIn": 711
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_31",
-    "name": "IPHONE 16 PLUS 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 900,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 900,
-      "used95_100": 820,
-      "used90_94": 805,
-      "used85_89": 775,
-      "tradeIn": 607
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_32",
-    "name": "IPHONE 16 PLUS 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 870,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 870,
-      "used90_94": 855,
-      "used85_89": 825,
-      "tradeIn": 644
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_33",
-    "name": "IPHONE 16 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 800,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 800,
-      "used95_100": 740,
-      "used90_94": 725,
-      "used85_89": 695,
-      "tradeIn": 548
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_34",
-    "name": "IPHONE 16 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "condition": "USADO",
     "cashPrice": 920,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 920,
-      "used95_100": 855.6,
-      "used90_94": 840.6,
-      "used85_89": 810.6,
-      "tradeIn": 634
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_35",
-    "name": "IPHONE 16E 128GB",
-    "category": "IPHONE",
+    "id": "prod_21_new",
+    "name": "IPHONE 17 AIR 512GB",
     "brand": "Apple",
-    "cashPrice": 660,
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1380,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 660,
-      "used95_100": 560,
-      "used90_94": 545,
-      "used85_89": 515,
-      "tradeIn": 415
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_36",
-    "name": "IPHONE 15 PM 256",
-    "category": "IPHONE",
+    "id": "prod_21_used",
+    "name": "IPHONE 17 AIR 512GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 790,
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1260,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 790,
-      "used90_94": 775,
-      "used85_89": 745,
-      "tradeIn": 553
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_37",
-    "name": "IPHONE 15 PRO 128",
-    "category": "IPHONE",
+    "id": "prod_22_new",
+    "name": "IPHONE 17 AIR 1TB",
     "brand": "Apple",
-    "cashPrice": 620,
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1600,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 620,
-      "used90_94": 605,
-      "used85_89": 575,
-      "tradeIn": 434
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_38",
-    "name": "IPHONE 15 PRO 256",
-    "category": "IPHONE",
+    "id": "prod_22_used",
+    "name": "IPHONE 17 AIR 1TB (USADO)",
     "brand": "Apple",
-    "cashPrice": 660,
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1480,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 660,
-      "used90_94": 645,
-      "used85_89": 615,
-      "tradeIn": 462
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_39",
-    "name": "IPHONE 15 PLUS 128GB",
-    "category": "IPHONE",
+    "id": "prod_23_new",
+    "name": "IPHONE 17 256GB",
     "brand": "Apple",
-    "cashPrice": 575,
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1030,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 575,
-      "used90_94": 560,
-      "used85_89": 530,
-      "tradeIn": 345
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_40",
-    "name": "IPHONE 15 128GB",
-    "category": "IPHONE",
+    "id": "prod_23_used",
+    "name": "IPHONE 17 256GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 710,
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 910,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 710,
-      "used95_100": 545,
-      "used90_94": 530,
-      "used85_89": 500,
-      "tradeIn": 327
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_41",
-    "name": "IPHONE 15 256GB",
-    "category": "IPHONE",
+    "id": "prod_24_new",
+    "name": "IPHONE 17 512GB",
     "brand": "Apple",
-    "cashPrice": 585,
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1250,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 585,
-      "used90_94": 570,
-      "used85_89": 540,
-      "tradeIn": 351
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_42",
-    "name": "IPHONE 14 PRO MAX 128GB",
-    "category": "IPHONE",
+    "id": "prod_24_used",
+    "name": "IPHONE 17 512GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 640,
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 640,
-      "used90_94": 625,
-      "used85_89": 595,
-      "tradeIn": 384
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_43",
-    "name": "IPHONE 14 PRO MAX 256GB",
-    "category": "IPHONE",
+    "id": "prod_25_new",
+    "name": "IPHONE 17E 256GB",
     "brand": "Apple",
-    "cashPrice": 680,
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 690,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 680,
-      "used90_94": 665,
-      "used85_89": 635,
-      "tradeIn": 408
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_44",
-    "name": "IPHONE 14 PRO 128GB",
-    "category": "IPHONE",
+    "id": "prod_25_used",
+    "name": "IPHONE 17E 256GB (USADO)",
     "brand": "Apple",
-    "cashPrice": 580,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 580,
-      "used90_94": 565,
-      "used85_89": 535,
-      "tradeIn": 348
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_45",
-    "name": "IPHONE 14 PRO  256GB",
     "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 620,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 620,
-      "used90_94": 605,
-      "used85_89": 575,
-      "tradeIn": 372
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_46",
-    "name": "IPHONE 14 PLUS 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 465,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 465,
-      "used90_94": 450,
-      "used85_89": 420,
-      "tradeIn": 279
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_47",
-    "name": "IPHONE 14 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 610,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": 610,
-      "used95_100": 430,
-      "used90_94": 415,
-      "used85_89": 385,
-      "tradeIn": 258
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_48",
-    "name": "IPHONE 13 PRO MAX 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 540,
-    "stock": 10,
-    "sourceSheet": "WAPS",
-    "variants": {
-      "newPrice": null,
-      "used95_100": 540,
-      "used90_94": 525,
-      "used85_89": 495,
-      "tradeIn": 324
-    },
-    "code": ""
-  },
-  {
-    "id": "prod_49",
-    "name": "IPHONE 13 PRO MAX 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "condition": "USADO",
     "cashPrice": 590,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 590,
-      "used90_94": 575,
-      "used85_89": 545,
-      "tradeIn": 354
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_50",
-    "name": "IPHONE 13 128GB",
-    "category": "IPHONE",
+    "id": "prod_26_used",
+    "name": "IPHONE 16 PRO MAX 256 (USADO)",
     "brand": "Apple",
-    "cashPrice": 510,
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 960,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 510,
-      "used95_100": 365,
-      "used90_94": 350,
-      "used85_89": 320,
-      "tradeIn": 219
-    },
-    "code": ""
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_26_new",
+    "name": "IPHONE 16 PRO MAX 256",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1150,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_27_used",
+    "name": "IPHONE 16 PRO MAX 512GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 1040,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_27_new",
+    "name": "IPHONE 16 PRO MAX 512GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1280,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_28_used",
+    "name": "IPHONE 16 PRO 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 860,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_28_new",
+    "name": "IPHONE 16 PRO 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1020,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_29_used",
+    "name": "IPHONE 16 PRO 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 910,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_29_new",
+    "name": "IPHONE 16 PRO 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1090,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_30_used",
+    "name": "IPHONE 16 PRO 512GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 960,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_30_new",
+    "name": "IPHONE 16 PRO 512GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 1190,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_31_new",
+    "name": "IPHONE 16 PLUS 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 900,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_31_used",
+    "name": "IPHONE 16 PLUS 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 820,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_32_used",
+    "name": "IPHONE 16 PLUS 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 870,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_32_new",
+    "name": "IPHONE 16 PLUS 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 980,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_33_new",
+    "name": "IPHONE 16 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 800,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_33_used",
+    "name": "IPHONE 16 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 740,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_34_new",
+    "name": "IPHONE 16 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 920,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_34_used",
+    "name": "IPHONE 16 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 855.6,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_35_new",
+    "name": "IPHONE 16E 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 660,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_35_used",
+    "name": "IPHONE 16E 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 560,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_36_used",
+    "name": "IPHONE 15 PRO MAX 256 (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 790,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_36_new",
+    "name": "IPHONE 15 PRO MAX 256",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 950,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_37_used",
+    "name": "IPHONE 15 PRO 128 (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 620,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_37_new",
+    "name": "IPHONE 15 PRO 128",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 780,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_38_used",
+    "name": "IPHONE 15 PRO 256 (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 660,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_38_new",
+    "name": "IPHONE 15 PRO 256",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 850,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_39_used",
+    "name": "IPHONE 15 PLUS 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 575,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_39_new",
+    "name": "IPHONE 15 PLUS 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 720,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_40_new",
+    "name": "IPHONE 15 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 710,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_40_used",
+    "name": "IPHONE 15 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 545,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_41_used",
+    "name": "IPHONE 15 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 585,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_41_new",
+    "name": "IPHONE 15 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 770,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_42_used",
+    "name": "IPHONE 14 PRO MAX 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 640,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_42_new",
+    "name": "IPHONE 14 PRO MAX 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 820,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_43_used",
+    "name": "IPHONE 14 PRO MAX 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 680,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_43_new",
+    "name": "IPHONE 14 PRO MAX 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 880,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_44_used",
+    "name": "IPHONE 14 PRO 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 580,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_44_new",
+    "name": "IPHONE 14 PRO 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 720,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_45_used",
+    "name": "IPHONE 14 PRO  256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 620,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_45_new",
+    "name": "IPHONE 14 PRO  256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 780,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_46_used",
+    "name": "IPHONE 14 PLUS 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 465,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_46_new",
+    "name": "IPHONE 14 PLUS 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 620,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_47_new",
+    "name": "IPHONE 14 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 610,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_47_used",
+    "name": "IPHONE 14 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 430,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_48_used",
+    "name": "IPHONE 13 PRO MAX 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 540,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_48_new",
+    "name": "IPHONE 13 PRO MAX 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 680,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_49_used",
+    "name": "IPHONE 13 PRO MAX 256GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 590,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_49_new",
+    "name": "IPHONE 13 PRO MAX 256GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 740,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_50_new",
+    "name": "IPHONE 13 128GB",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
+    "cashPrice": 510,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_50_used",
+    "name": "IPHONE 13 128GB (USADO)",
+    "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "USADO",
+    "cashPrice": 365,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
   },
   {
     "id": "prod_51",
     "name": "SAMSUNG",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 0,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_52",
     "name": "SAMSUNG S25 FE 256GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 640,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 640,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_53",
     "name": "SAMSUNG S26 FE 256GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 845,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 845,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_54",
     "name": "SAMSUNG S26 FE 512GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1040,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1040,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_55",
     "name": "SMG S26 NORMAL 12/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 825,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 825,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_56",
     "name": "SMG S26 NORMAL 12/512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 990,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 990,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_57",
     "name": "SMG S26 PLUS 12/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 980,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 980,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_58",
     "name": "SMG S26 PLUS 12/512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1140,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1140,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_59",
     "name": "SMG S26 ULTRA 12/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1140,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1140,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_60",
     "name": "SMG S26 ULTRA 12/512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1300,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1300,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_61",
     "name": "SMG S26 ULTRA 16/1TB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1520,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1520,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_62",
     "name": "SAMSUNG FLIP 8 12Gb 256GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1115,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1115,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_63",
     "name": "SAMSUNG FLIP 8 12Gb 512GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1310,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1310,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_64",
     "name": "SAMSUNG FOLD 8 12Gb 256GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1670,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1670,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_65",
     "name": "SAMSUNG FOLD 8 12Gb 512GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1940,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1940,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_66",
     "name": "SAMSUNG FOLD 8 ULTRA 12Gb 256GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1990,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1990,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_67",
     "name": "SAMSUNG FOLD 8 ULTRA 12Gb 512GB",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 2160,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2160,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_68",
     "name": "SMG S25 NORMAL 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 720,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 720,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_69",
+    "id": "prod_69_new",
     "name": "SMG S25 ULTRA 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 940,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 940,
-      "used95_100": 850,
-      "used90_94": 835,
-      "used85_89": null,
-      "tradeIn": 629
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_70",
+    "id": "prod_69_used",
+    "name": "SMG S25 ULTRA 256GB (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
+    "cashPrice": 850,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_70_new",
     "name": "SMG S25 ULTRA 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 1000,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1000,
-      "used95_100": 900,
-      "used90_94": 885,
-      "used85_89": null,
-      "tradeIn": 666
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_71",
-    "name": "SMG S24 ULTRA 256",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_70_used",
+    "name": "SMG S25 ULTRA 512GB (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
+    "cashPrice": 900,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_71_used",
+    "name": "SMG S24 ULTRA 256 (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
     "cashPrice": 720,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 720,
-      "used90_94": 705,
-      "used85_89": null,
-      "tradeIn": 504
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_72",
-    "name": "SMG S24 ULTRA 512",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_71_new",
+    "name": "SMG S24 ULTRA 256",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
+    "cashPrice": 890,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_72_used",
+    "name": "SMG S24 ULTRA 512 (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
     "cashPrice": 770,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 770,
-      "used90_94": 755,
-      "used85_89": null,
-      "tradeIn": 539
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_73",
-    "name": "SMG S23 ULTRA 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_72_new",
+    "name": "SMG S24 ULTRA 512",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
+    "cashPrice": 980,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_73_used",
+    "name": "SMG S23 ULTRA 256GB (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
     "cashPrice": 590,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 590,
-      "used90_94": 575,
-      "used85_89": null,
-      "tradeIn": 384
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_74",
-    "name": "SMG S23 ULTRA 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_73_new",
+    "name": "SMG S23 ULTRA 256GB",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
+    "cashPrice": 740,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_74_used",
+    "name": "SMG S23 ULTRA 512GB (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
     "cashPrice": 615,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 615,
-      "used90_94": 600,
-      "used85_89": null,
-      "tradeIn": 400
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_75",
-    "name": "SMG S22 ULTRA 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 440,
+    "id": "prod_74_new",
+    "name": "SMG S23 ULTRA 512GB",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
+    "cashPrice": 790,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 440,
-      "used90_94": 425,
-      "used85_89": null,
-      "tradeIn": 286
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_75_used",
+    "name": "SMG S22 ULTRA 256GB (USADO)",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "USADO",
+    "cashPrice": 440,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_75_new",
+    "name": "SMG S22 ULTRA 256GB",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
+    "cashPrice": 580,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_76",
     "name": "SMG A57 8/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 490,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 490,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_77",
     "name": "SMG A37 8/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 425,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 425,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_78",
     "name": "SMG A27 8/256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 385,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 385,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_79",
     "name": "SMG A17 4/128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 190,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 190,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_80",
     "name": "SMG A07 4/128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 130,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_81",
     "name": "GOOPLE PIXEL",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 0,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_82",
     "name": "GOOGLE PIXEL 10 PRO XL 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 1200,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1200,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_83",
     "name": "GOOGLE PIXEL 10 PRO XL 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 1350,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1350,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_84",
     "name": "GOOGLE PIXEL 10 PRO 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 1000,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1000,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_85",
     "name": "GOOGLE PIXEL 10 PRO 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 1050,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1050,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_86",
     "name": "GOOGLE PIXEL 10 PRO  512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
     "cashPrice": 1250,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1250,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
-    "id": "prod_87",
-    "name": "GOOGLE PIXEL 9 PRO XL 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_87_used",
+    "name": "GOOGLE PIXEL 9 PRO XL 128GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 760,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 760,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_88",
-    "name": "GOOGLE PIXEL 9  PRO XL 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_87_new",
+    "name": "GOOGLE PIXEL 9 PRO XL 128GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 890,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_88_used",
+    "name": "GOOGLE PIXEL 9  PRO XL 256GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 860,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 860,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_89",
-    "name": "GOOGLE PIXEL 9 PRO XL 512GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_88_new",
+    "name": "GOOGLE PIXEL 9  PRO XL 256GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 990,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_89_used",
+    "name": "GOOGLE PIXEL 9 PRO XL 512GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 960,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 960,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_90",
-    "name": "GOOGLE PIXEL 9 PRO 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_89_new",
+    "name": "GOOGLE PIXEL 9 PRO XL 512GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 1090,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_90_used",
+    "name": "GOOGLE PIXEL 9 PRO 128GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 660,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 660,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_91",
-    "name": "GOOGLE PIXEL 9 PRO 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_90_new",
+    "name": "GOOGLE PIXEL 9 PRO 128GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 790,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_91_used",
+    "name": "GOOGLE PIXEL 9 PRO 256GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 760,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 760,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_92",
-    "name": "GOOGLE PIXEL 9 NORMAL 128GB",
-    "category": "IPHONE",
-    "brand": "Apple",
+    "id": "prod_91_new",
+    "name": "GOOGLE PIXEL 9 PRO 256GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 890,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_92_used",
+    "name": "GOOGLE PIXEL 9 NORMAL 128GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
     "cashPrice": 500,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 500,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "USADO"
+    }
   },
   {
-    "id": "prod_93",
-    "name": "GOOGLE PIXEL 9 NORMAL 256GB",
-    "category": "IPHONE",
-    "brand": "Apple",
-    "cashPrice": 600,
+    "id": "prod_92_new",
+    "name": "GOOGLE PIXEL 9 NORMAL 128GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 620,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": 600,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
+  },
+  {
+    "id": "prod_93_used",
+    "name": "GOOGLE PIXEL 9 NORMAL 256GB (USADO)",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "USADO",
+    "cashPrice": 600,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "USADO"
+    }
+  },
+  {
+    "id": "prod_93_new",
+    "name": "GOOGLE PIXEL 9 NORMAL 256GB",
+    "brand": "Google",
+    "category": "GOOGLE PIXEL",
+    "condition": "NUEVO",
+    "cashPrice": 720,
+    "stock": 10,
+    "code": "",
+    "sourceSheet": "WAPS",
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_94",
     "name": "HONOR, REALME, INFINIX",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 0,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_95",
     "name": "HONOR 400 SMART 8/256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 225,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 225,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_96",
     "name": "HONOR MAGIC 8 LITE 8/256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 400,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 400,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_97",
     "name": "XIOMI REDMI NOTE 15 NORMAL 8/256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 235,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 235,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_98",
     "name": "XIOMI REDMI NOTE 15 NORMAL 8/512GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 265,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 265,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_99",
     "name": "XIOMI REDMI NOTE 15 PRO 8/256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 275,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 275,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_100",
     "name": "XIOMI REDMI NOTE 15 PRO PLUS 12/512GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 460,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 460,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_101",
     "name": "REALME GT7 PRO 12/256GB",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 760,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 760,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_102",
     "name": "AUDIFONOS/ BOCINAS",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 0,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": null,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_103",
     "name": "AIRPODS 5",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 169.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 169.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_104",
     "name": "AIRPODS 5 ANC",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 199.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 199.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_105",
     "name": "AIRPODS 4",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 145,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 145,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_106",
     "name": "AIRPODS 4 ANC",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 185,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 185,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_107",
     "name": "AIRPODS PRO 3",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 300,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 300,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_108",
     "name": "AIRPODS MAX 2 MIDNIGHT",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 600,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 600,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_109",
     "name": "AIRPODS MAX LIGHTNING",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 540,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 540,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_110",
     "name": "APPLE EARBUDS LIGHTNING",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 30,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 30,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_111",
     "name": "APPLE EARBUDS TIPO C",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 35,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 35,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_112",
     "name": "BEATS STUDIO PRO",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 280,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 280,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_113",
     "name": "GALAXY BUDS3PRO SILVER",
-    "category": "IPHONE",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 160,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 160,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_114",
     "name": "BOSE OPEN EARBUSD ULTRA",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 230,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 230,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_115",
     "name": "BOSE QUIETCOMFORT ULTRA",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 280,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 280,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_116",
     "name": "BEATS STUDIO BUDS + WHITE",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 140,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 140,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_117",
     "name": "BEATS SOLO BUDS WHITE",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 71.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 71.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_118",
     "name": "HOME POD MINI",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 155,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 155,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_119",
     "name": "SPOT",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 70,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 70,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_120",
     "name": "DOT",
-    "category": "IPHONE",
     "brand": "Apple",
+    "category": "IPHONE",
+    "condition": "NUEVO",
     "cashPrice": 55,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 55,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_121",
     "name": "APPLE WATCH 12 AL 42MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 519.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 519.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_122",
     "name": "APPLE WATCH 12 AL 46MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 549.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 549.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_123",
     "name": "APPLE WATCH ULTRA 4 49MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 999.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 999.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_124",
     "name": "APPLE WATCH SERIE 11 46MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 440,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 440,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_125",
     "name": "APPLE WATCH SERIE 11 42MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 420,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 420,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_126",
     "name": "APPLE WATCH SERIE 11 46MM OPEN BOX SIN CAJA",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 390,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 390,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_127",
     "name": "APPLE WATCH ULTRA 3 BLACK",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 860,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 860,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_128",
     "name": "APPLE WATCH ULTRA 2 BLACK",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 740,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 740,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_129",
     "name": "APPLE WATCH SE 3 GEN BLACK 44MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 320,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 320,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_130",
     "name": "GALAXY WATCH ULTRA 47MM",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 330,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 330,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_131",
     "name": "AMAZFLIT ACTIVE 2",
-    "category": "WATCH/GALAXY WATCH",
     "brand": "Apple / Samsung",
+    "category": "WATCH/GALAXY WATCH",
+    "condition": "NUEVO",
     "cashPrice": 130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 130,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_132",
     "name": "AMD RYZEN 7 9800X3D",
-    "category": "CONSOLAS OTROS",
     "brand": "AMD",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 550,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 550,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_133",
     "name": "REFRI MINECRAFT TNT",
-    "category": "CONSOLAS OTROS",
     "brand": "Varios",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 120,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 120,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_134",
     "name": "TARJETA GRAFICA 4080 SUPER",
-    "category": "CONSOLAS OTROS",
     "brand": "Varios",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 900,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 900,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_135",
     "name": "SSD XBOX 2TB",
-    "category": "CONSOLAS OTROS",
     "brand": "Microsoft Xbox",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 300,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 300,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_136",
     "name": "G406V CONSOLA RETRO",
-    "category": "CONSOLAS OTROS",
     "brand": "Varios",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 280,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 280,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_137",
     "name": "NYXI  CONTROL GAMECUBE SWITCH",
+    "brand": "Nintendo",
     "category": "CONSOLAS OTROS",
-    "brand": "Varios",
+    "condition": "NUEVO",
     "cashPrice": 100,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 100,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_138",
     "name": "MINI REFRI TNT",
-    "category": "CONSOLAS OTROS",
     "brand": "Varios",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 130,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_139",
     "name": "META QUEST 3",
-    "category": "CONSOLAS OTROS",
     "brand": "Meta",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 650,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 650,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_140",
     "name": "RAY BAN META",
+    "brand": "Meta",
     "category": "CONSOLAS OTROS",
-    "brand": "Varios",
+    "condition": "NUEVO",
     "cashPrice": 550,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 550,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_141",
     "name": "LEGION GO",
-    "category": "CONSOLAS OTROS",
     "brand": "Varios",
+    "category": "CONSOLAS OTROS",
+    "condition": "NUEVO",
     "cashPrice": 820,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 820,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_142",
     "name": "GALAXY CHROME BOOK PLUS 8/256GB",
-    "category": "CONSOLAS OTROS",
     "brand": "Samsung",
+    "category": "SAMSUNG",
+    "condition": "NUEVO",
     "cashPrice": 600,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 600,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_143",
     "name": "MICRO SD MARIO 128GB",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 25,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 25,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_144",
     "name": "MICRO SD MARIO 256GB",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 35,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 35,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_145",
     "name": "MICRO SD MARIO 512GB",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 75,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 75,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_146",
     "name": "JUEGOS NINTENDO SWITCH",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 70,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 70,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_147",
     "name": "JUEGO SWITCH ZELDA/3D WORLD/SUPERSTARS",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 60,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 60,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_148",
     "name": "JUEGOS SWITCH KART/SMASH/JAMBOREE",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 65,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 65,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_149",
     "name": "NINTENDO SWITCH LITE ZELDA",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 250,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 250,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_150",
     "name": "SWITCH WHITE / NEON",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 365,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 365,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_151",
     "name": "SWITCH RED",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 370,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 370,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_152",
     "name": "SWITCH POK/SPLA",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 440,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 440,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_153",
     "name": "SWITCH ZELDA",
-    "category": "NINTENDO SWITCH",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH",
+    "condition": "NUEVO",
     "cashPrice": 440,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 440,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_154",
     "name": "RIFFMASTER GUITAR",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 240,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 240,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_155",
     "name": "PS5 PRO 2TB",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 1450,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1450,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_156",
     "name": "PS5 DIGITAL",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 810,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 810,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_157",
     "name": "PS5 DISCO",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 875,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 875,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_158",
     "name": "PS5 DISCO FORTNITE",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 895,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 895,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_159",
     "name": "PS5 DISCO GHOST",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 985,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 985,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_160",
     "name": "JUEGOS PS5 DISCO",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 75,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 75,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_161",
     "name": "PS5 PORTAL",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 320,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 320,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_162",
     "name": "PUSLE 3D BLACK/ARMY",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 115,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 115,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_163",
     "name": "PULSE EXPLORE",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 230,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 230,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_164",
     "name": "LECTOR PS5",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 140,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 140,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_165",
     "name": "VERTICAL STAND",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 60,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 60,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_166",
     "name": "PS5 CHARGINGS DUAL SENSE",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 60,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 60,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_167",
     "name": "PS5 STICK MODULE",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 55,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 55,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_168",
     "name": "PS5 GAME DRIVE + HEATSINK 1TB",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 180,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 180,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_169",
     "name": "PS5 GAME DRIVE + HEATSINK 2TB",
+    "brand": "Sony PlayStation",
     "category": "PS5 Y ACCESORIOS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 250,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 250,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_170",
     "name": "KINGSTONE FURY 1TB",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 130,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_171",
     "name": "KINGSTONE FURY 2TB",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Sony PlayStation",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 210,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 210,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_172",
     "name": "XBOX SERIE S",
-    "category": "PS5 Y ACCESORIOS",
     "brand": "Microsoft Xbox",
+    "category": "PS5 Y ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 400,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 400,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_173",
     "name": "CONTROL EDGE",
-    "category": "CONTROLES CONSOLAS",
     "brand": "Varios",
+    "category": "CONTROLES CONSOLAS",
+    "condition": "NUEVO",
     "cashPrice": 240,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 240,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_174",
     "name": "CONTROL PS5 TODOS LOS COLORES",
+    "brand": "Sony PlayStation",
     "category": "CONTROLES CONSOLAS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 85,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 85,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_175",
     "name": "CONTROL PS5 THE LAST OF US",
+    "brand": "Sony PlayStation",
     "category": "CONTROLES CONSOLAS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 150,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 150,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_176",
     "name": "CONTROL PS5 30 ANIVERSARIO",
+    "brand": "Sony PlayStation",
     "category": "CONTROLES CONSOLAS",
-    "brand": "Sony",
+    "condition": "NUEVO",
     "cashPrice": 165,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 165,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_177",
     "name": "JOYCON TODOS LOS COLORES",
-    "category": "CONTROLES CONSOLAS",
     "brand": "Varios",
+    "category": "CONTROLES CONSOLAS",
+    "condition": "NUEVO",
     "cashPrice": 80,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 80,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_178",
     "name": "CONTROL XBOX WHITE/BLACK/BLUE",
-    "category": "CONTROLES CONSOLAS",
     "brand": "Microsoft Xbox",
+    "category": "CONTROLES CONSOLAS",
+    "condition": "NUEVO",
     "cashPrice": 80,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 80,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_179",
     "name": "NINTENDO SWITCH 2 NORMAL USA/HK",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 650,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 650,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_180",
     "name": "NINTENDO SWITCH 2 MARIO KART USA/HK",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 700,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 700,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_181",
     "name": "CONTROL PRO NINTENDO SWITCH 2",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 110,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 110,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_182",
     "name": "JOYCON NINTENDO SWITCH 2",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 110,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 110,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_183",
     "name": "JUEGO ZELDA /MARIO",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 95,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 95,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_184",
     "name": "CAMARA SWITCH 2",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 85,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 85,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_185",
     "name": "MICRO SD EXPRESS SWITCH 2",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 85,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 85,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_186",
     "name": "CARGADOR COMPLETO SWITCH 2",
-    "category": "NINTENDO SWITCH 2/ACCESORIOS",
     "brand": "Nintendo",
+    "category": "NINTENDO SWITCH 2/ACCESORIOS",
+    "condition": "NUEVO",
     "cashPrice": 65,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 65,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_187",
     "name": "AIRTAG UNIDAD",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 35,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 35,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_188",
     "name": "AIRTAG 4 PACK",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 130,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 130,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_189",
     "name": "WALLET FINEWOVEN",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 60,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 60,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_190",
     "name": "PENCIL USB",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 110,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 110,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_191",
     "name": "PENCIL 2",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 120,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 120,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_192",
     "name": "PENCIL PRO",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 150,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 150,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_193",
     "name": "MAGIC KEYBOARD WHITE / INGLES",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 97.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 97.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_194",
     "name": "MAGIC KEYBOARD SILVER / NUMERICO ESPAÑOL",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 131.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 131.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_195",
     "name": "MAGIC KEYBOARD IPAD PRO 11PLG BLACK",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 303.99,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 303.99,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_196",
     "name": "IPAD MINI 7TH 128GB",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 640,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 640,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_197",
     "name": "IPAD 11TH 128GB",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 520,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 520,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_198",
     "name": "IPAD 11TH 256GB",
-    "category": "IPAD/ PENCIL / TECLADOS",
     "brand": "Apple",
+    "category": "IPAD/ PENCIL / TECLADOS",
+    "condition": "NUEVO",
     "cashPrice": 640,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 640,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_199",
     "name": "IPAD PRO M5 13PLG 256GB",
-    "category": "CHIP M5",
     "brand": "Apple",
+    "category": "CHIP M5",
+    "condition": "NUEVO",
     "cashPrice": 1520,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1520,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_200",
     "name": "IPAD PRO M5 11PLG 256GB",
-    "category": "CHIP M5",
     "brand": "Apple",
+    "category": "CHIP M5",
+    "condition": "NUEVO",
     "cashPrice": 1380,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1380,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_201",
     "name": "IPAD AIR M3 11PLG 128GB",
-    "category": "CHIP M4",
     "brand": "Apple",
+    "category": "CHIP M4",
+    "condition": "NUEVO",
     "cashPrice": 690,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 690,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_202",
     "name": "IPAD AIR M4 11PLG 128GB",
-    "category": "CHIP M4",
     "brand": "Apple",
+    "category": "CHIP M4",
+    "condition": "NUEVO",
     "cashPrice": 850,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 850,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_203",
     "name": "IPAD AIR M4 11PLG 256GB",
-    "category": "CHIP M4",
     "brand": "Apple",
+    "category": "CHIP M4",
+    "condition": "NUEVO",
     "cashPrice": 980,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 980,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_204",
     "name": "IPAD AIR M4 13PLG 128GB",
-    "category": "CHIP M4",
     "brand": "Apple",
+    "category": "CHIP M4",
+    "condition": "NUEVO",
     "cashPrice": 980,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 980,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_205",
     "name": "IPAD AIR M4 13PLG 256GB",
-    "category": "CHIP M4",
     "brand": "Apple",
+    "category": "CHIP M4",
+    "condition": "NUEVO",
     "cashPrice": 1195,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1195,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_206",
     "name": "MACBOOK PRO M4 PRO 14 24/512GB",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 2200,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2200,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_207",
     "name": "MACBOOK PRO M5 14 16/1TB",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 2260,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2260,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_208",
     "name": "MACBOOK PRO M5 14 24/1TB",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 2440,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2440,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_209",
     "name": "MACBOOK PRO M5 14 32/1TB",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 2920,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2920,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_210",
     "name": "MACBOOK PRO M5 PRO 14 24/1TB 15/16 core",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 2800,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2800,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_211",
     "name": "MACBOOK PRO M5 PRO 14 48/1TB 15/16 core",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 3280,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 3280,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_212",
     "name": "MACBOOK PRO M5 PRO 16 24/1TB 18/20 core",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 3600,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 3600,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_213",
     "name": "MACBOOK PRO M5 PRO 16 48/1TB 18/20 core",
-    "category": "MACBOOK PRO",
     "brand": "Apple",
+    "category": "MACBOOK PRO",
+    "condition": "NUEVO",
     "cashPrice": 4050,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 4050,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_214",
     "name": "MACBOOK AIR M4 13 16/256GB",
-    "category": "MACBOOK AIR",
     "brand": "Apple",
+    "category": "MACBOOK AIR",
+    "condition": "NUEVO",
     "cashPrice": 1080,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1080,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_215",
     "name": "MACBOOK AIR M5 13 16/512GB",
-    "category": "MACBOOK AIR",
     "brand": "Apple",
+    "category": "MACBOOK AIR",
+    "condition": "NUEVO",
     "cashPrice": 1590,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1590,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_216",
     "name": "MACBOOK AIR M5 13 16/1TB",
-    "category": "MACBOOK AIR",
     "brand": "Apple",
+    "category": "MACBOOK AIR",
+    "condition": "NUEVO",
     "cashPrice": 1950,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1950,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_217",
     "name": "MACBOOK AIR M5 15 16/512GB",
-    "category": "MACBOOK AIR",
     "brand": "Apple",
+    "category": "MACBOOK AIR",
+    "condition": "NUEVO",
     "cashPrice": 1840,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 1840,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_218",
     "name": "MACBOOK AIR M5 15 16/1TB",
-    "category": "MACBOOK AIR",
     "brand": "Apple",
+    "category": "MACBOOK AIR",
+    "condition": "NUEVO",
     "cashPrice": 2200,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 2200,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_219",
     "name": "MACBOOK NEO 8/256GB",
-    "category": "NEO",
     "brand": "Apple",
+    "category": "NEO",
+    "condition": "NUEVO",
     "cashPrice": 845,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 845,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_220",
     "name": "MACBOOK NEO 8/512GB",
-    "category": "NEO",
     "brand": "Apple",
+    "category": "NEO",
+    "condition": "NUEVO",
     "cashPrice": 970,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 970,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_221",
     "name": "ANKER MAGO 10K BLACK/WHITE",
-    "category": "POWER BANK",
     "brand": "Anker",
+    "category": "POWER BANK",
+    "condition": "NUEVO",
     "cashPrice": 60,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 60,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_222",
     "name": "ANKER NANO 10K POWER BANK WHITE",
-    "category": "POWER BANK",
     "brand": "Anker",
+    "category": "POWER BANK",
+    "condition": "NUEVO",
     "cashPrice": 50,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 50,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_223",
     "name": "ANKER 737 GEN 2 WHITE BLACK",
-    "category": "POWER BANK",
     "brand": "Anker",
+    "category": "POWER BANK",
+    "condition": "NUEVO",
     "cashPrice": 110,
     "stock": 10,
+    "code": "",
     "sourceSheet": "WAPS",
     "variants": {
-      "newPrice": 110,
-      "used95_100": null,
-      "used90_94": null,
-      "used85_89": null,
-      "tradeIn": null
-    },
-    "code": ""
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_224",
     "name": "JBL Go4 White Speaker",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 34.2,
     "stock": 121,
+    "code": "JBLGO4WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGO4WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_225",
     "name": "JBL Go4 Black Speaker",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 34.2,
     "stock": 1019,
+    "code": "JBLGO4BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGO4BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_226",
     "name": "JBL Go4 Red Speaker",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 34.2,
     "stock": 94,
+    "code": "JBLGO4REDAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGO4REDAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_227",
     "name": "JBL Clip 5",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 46.52,
     "stock": 59,
+    "code": "JBLCLIP5BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLCLIP5BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_228",
     "name": "JBL Clip 5",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 46.52,
     "stock": 40,
+    "code": "JBLCLIP5BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLCLIP5BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_229",
     "name": "JBL Clip 5",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 46.52,
     "stock": 49,
+    "code": "JBLCLIP5REDAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLCLIP5REDAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_230",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 494,
+    "code": "JBLGRIPBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_231",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 133,
+    "code": "JBLGRIPBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_232",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 44,
+    "code": "JBLGRIPPURAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPPURAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_233",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 92,
+    "code": "JBLGRIPREDAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPREDAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_234",
     "name": "JBL Grip BT Portable Speaker Yellow",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 121,
+    "code": "JBLGRIPYELAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPYELAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_235",
     "name": "Jbl Speaker BT Grip Orange",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 20,
+    "code": "JBLGRIPORGAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPORGAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_236",
     "name": "Jbl Speaker BT Grip Pink",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 80,
+    "code": "JBLGRIPPIKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPPIKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_237",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 74,
+    "code": "JBLGRIPSQUADAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPSQUADAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_238",
     "name": "JBL Grip",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 70.16,
     "stock": 20,
+    "code": "JBLGRIPWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLGRIPWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_239",
     "name": "JBL Flip 7 BT Speaker Black Funky",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 44,
+    "code": "JBLFLIP7BLKOAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7BLKOAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_240",
     "name": "JBL Flip 7 Speaker Bluetooth Black",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 88,
+    "code": "JBLFLIP7BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_241",
     "name": "JBL Flip 7 Speaker Bluetooth Blue",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 143,
+    "code": "JBLFLIP7BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_242",
     "name": "JBL Flip 7 BT Speaker Pink",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 105.91,
     "stock": 7,
+    "code": "JBLFLIP7PINKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7PINKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_243",
     "name": "JBL Flip 7 Speaker Bluetooth Red",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 43,
+    "code": "JBLFLIP7REDAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7REDAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_244",
     "name": "JBL Flip 7 BT Speaker Squad",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 1,
+    "code": "JBLFLIP7SQUADAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7SQUADAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_245",
     "name": "JBL Flip 7 BT Speaker White",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 15,
+    "code": "JBLFLIP7WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_246",
     "name": "JBL Flip 7 Speaker Bluetooth Purple",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 117.28,
     "stock": 79,
+    "code": "JBLFLIP7PURAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLFLIP7PURAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_247",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 322,
+    "code": "KT276XSV65",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV65"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_248",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 453,
+    "code": "KT272XSV49",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT272XSV49"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_249",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 208,
+    "code": "KT272XSV52",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT272XSV52"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_250",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
-    "stock": 0,
+    "stock": 10,
+    "code": "KT276XSV68",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV68"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_251",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 78,
+    "code": "KT276XSV66",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV66"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_252",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 123,
+    "code": "KT276XSV67",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV67"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_253",
     "name": "JBL Charge 6 BT Speaker +Tune110",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 155.98,
     "stock": 75,
+    "code": "KT276XSV69",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV69"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_254",
     "name": "JBL XTREME 5 BT Speaker - Black + 520C",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 295.64,
-    "stock": 0,
+    "stock": 10,
+    "code": "KT276XSV70",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV70"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_255",
     "name": "JBL XTREME 5 BT Speaker - Squad + 520C",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 295.64,
     "stock": 3,
+    "code": "KT276XSV71",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV71"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_256",
     "name": "JBL XTREME 5 BT Speaker - Blue + 520C",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 295.64,
     "stock": 23,
+    "code": "KT276XSV72",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT276XSV72"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_257",
     "name": "Boombox 4 + T520C BLK",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 390.02,
-    "stock": 0,
+    "stock": 10,
+    "code": "KT273XSV23",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT273XSV23"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_258",
     "name": "Boombox 4 + T520C WHT",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 390.02,
     "stock": 40,
+    "code": "KT273XSV25",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT273XSV25"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_259",
     "name": "Boombox 4 + T520C BLU",
-    "category": "JBL - Bocina",
     "brand": "JBL",
+    "category": "JBL - Bocina",
+    "condition": "NUEVO",
     "cashPrice": 390.02,
     "stock": 35,
+    "code": "KT273XSV24",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT273XSV24"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_260",
     "name": "JBL Soundgear frames - wireless - Onyx Round",
-    "category": "JBL - Soundgear",
     "brand": "JBL",
+    "category": "JBL - Soundgear",
+    "condition": "NUEVO",
     "cashPrice": 103.96,
     "stock": 37,
+    "code": "JBLSNDGEARFMSRONX",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARFMSRONX"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_261",
     "name": "JBL Soundgear frames - wireless - Pearl",
-    "category": "JBL - Soundgear",
     "brand": "JBL",
+    "category": "JBL - Soundgear",
+    "condition": "NUEVO",
     "cashPrice": 103.96,
     "stock": 11,
+    "code": "JBLSNDGEARFMSRPRL",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARFMSRPRL"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_262",
     "name": "JBL Soundgear frames - wireless - Sonyx Square",
-    "category": "JBL - Soundgear",
     "brand": "JBL",
+    "category": "JBL - Soundgear",
+    "condition": "NUEVO",
     "cashPrice": 103.96,
     "stock": 24,
+    "code": "JBLSNDGEARFMSSONX",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARFMSSONX"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_263",
     "name": "Quantum Stream Type C",
-    "category": "JBL - Gaming",
     "brand": "JBL",
+    "category": "JBL - Gaming",
+    "condition": "NUEVO",
     "cashPrice": 71.99,
     "stock": 120,
+    "code": "JBLSTRMWLUSBCBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSTRMWLUSBCBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_264",
     "name": "JBL Quantum steam studio Microphone - Gaming - Black",
-    "category": "JBL - Gaming",
     "brand": "JBL",
+    "category": "JBL - Gaming",
+    "condition": "NUEVO",
     "cashPrice": 62.13,
     "stock": 6,
+    "code": "JBLSTRMSTUDIOBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSTRMSTUDIOBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_265",
     "name": "JBL Tune 520 BT Headphone Bluetooth On Ear Black",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 29.89,
     "stock": 568,
+    "code": "JBLT520BTBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520BTBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_266",
     "name": "JBL Tune 520 BT Headphone Bluetooth On Ear White",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 30.8,
     "stock": 22,
+    "code": "JBLT520BTWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520BTWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_267",
     "name": "JBL Tune 520 BT Headphone Bluetooth On Ear Blue",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 30.8,
     "stock": 191,
+    "code": "JBLT520BTBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520BTBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_268",
     "name": "JBL Tune 520 C Headphones Non-TWS Black",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 23.37,
     "stock": 146,
+    "code": "JBLT520CBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520CBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_269",
     "name": "JBL Tune 520 C Headphones Non-TWS Blue",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 23.37,
     "stock": 40,
+    "code": "JBLT520CBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520CBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_270",
     "name": "JBL Tune 520 C Headphones Non-TWS Purple",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 23.37,
     "stock": 171,
+    "code": "JBLT520CPURAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520CPURAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_271",
     "name": "JBL Tune 520 C Headphones Non-TWS White",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 23.37,
     "stock": 63,
+    "code": "JBLT520CWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT520CWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_272",
     "name": "JBL TUNE720BT BLACK WIRELESS OVER EAR HEADPHONES",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 43.53,
     "stock": 34,
+    "code": "JBLT720BTBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT720BTBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_273",
     "name": "JBL TUNE720BT BLUE WIRELESS OVER EAR HEADPHONES",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 43.53,
     "stock": 22,
+    "code": "JBLT720BTBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT720BTBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_274",
     "name": "JBL Tune 770 BT Headphone Noise Cancelling Over Ear Black",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 63.22,
     "stock": 260,
+    "code": "JBLT770NCBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT770NCBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_275",
     "name": "JBL Tune 770 BT Headphone Noise Cancelling Over Ear Blue",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 63.22,
     "stock": 25,
+    "code": "JBLT770NCBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLT770NCBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_276",
     "name": "JBL Tour One M3 Headphones TWS Black",
-    "category": "JBL - Audifonos",
     "brand": "JBL",
+    "category": "JBL - Audifonos",
+    "condition": "NUEVO",
     "cashPrice": 227.67,
     "stock": 4,
+    "code": "JBLTOURONEM3BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTOURONEM3BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_277",
     "name": "JBL Vibe Buds 2 Headphones - NC- Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 45.35,
     "stock": 62,
+    "code": "JBLVBUDS2BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBUDS2BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_278",
     "name": "JBL Vibe Buds 2 Headphones - NC- Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 45.35,
     "stock": 214,
+    "code": "JBLVBUDS2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBUDS2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_279",
     "name": "JBL Vibe Buds 2 Headphones - NC- White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 113,
+    "code": "JBLVBUDS2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBUDS2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_280",
     "name": "JBL Vibe Buds 2 Headphones - NC- Pink",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 39,
+    "code": "JBLVBUDS2PIKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBUDS2PIKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_281",
     "name": "JBL Vibe Beam 2 Headphones - NC- Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 115,
+    "code": "JBLVBEAM2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBEAM2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_282",
     "name": "JBL Vibe Beam 2 - Headphones - NC- Pink",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 63,
+    "code": "JBLVBEAM2PIKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBEAM2PIKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_283",
     "name": "JBL Vibe Beam 2 - Headphones - NC- White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 98,
+    "code": "JBLVBEAM2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBEAM2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_284",
     "name": "JBL Vibe Beam 2 - Headphones - NC- Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 52,
+    "code": "JBLVBEAM2BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVBEAM2BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_285",
     "name": "JBL Vibe Flex 2 Headphones TWS Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 59.99,
     "stock": 252,
+    "code": "JBLVFLEX2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVFLEX2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_286",
     "name": "JBL Vibe Flex 2 Headphones TWS Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 107,
+    "code": "JBLVFLEX2BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVFLEX2BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_287",
     "name": "JBL Vibe Flex 2 Headphones TWS Pink",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 50,
+    "code": "JBLVFLEX2PIKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVFLEX2PIKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_288",
     "name": "JBL Vibe Flex 2 Headphones TWS White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 43.4,
     "stock": 105,
+    "code": "JBLVFLEX2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLVFLEX2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_289",
     "name": "JBL Tune Buds 2 Earbuds TWS Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 59,
+    "code": "JBLTBUDS2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_290",
     "name": "JBL Tune Buds 2 Headphones TWS Ghost Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 29,
+    "code": "JBLTBUDS2GBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2GBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_291",
     "name": "JBL Tune Buds 2 Earbuds TWS White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 107,
+    "code": "JBLTBUDS2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_292",
     "name": "JBL Tune Buds 2 Earbuds TWS White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 12,
+    "code": "JBLTBUDS2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_293",
     "name": "JBL Tune Buds 2 Headphones TWS Ghost White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 30,
+    "code": "JBLTBUDS2GWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2GWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_294",
     "name": "JBL Tune Buds 2 Headphones TWS Turquoise",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 21,
+    "code": "JBLTBUDS2TQEAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBUDS2TQEAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_295",
     "name": "JBL Tune Beam 2 Headphones TWS Turquoise",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 23,
+    "code": "JBLTBEAM2TQEAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBEAM2TQEAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_296",
     "name": "JBL Tune Beam 2 Headphones TWS Ghost Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
-    "stock": 0,
+    "stock": 10,
+    "code": "JBLTBEAM2GBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBEAM2GBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_297",
     "name": "JBL Tune Beam 2 Headphones TWS Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 186,
+    "code": "JBLTBEAM2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBEAM2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_298",
     "name": "JBL Tune Beam 2 Headphones TWS White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 65,
+    "code": "JBLTBEAM2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTBEAM2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_299",
     "name": "JBL Tune Flex 2 Earbuds TWS Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 94,
+    "code": "JBLTFLEX2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTFLEX2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_300",
     "name": "JBL Tune Flex 2 Earbuds TWS White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 85,
+    "code": "JBLTFLEX2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTFLEX2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_301",
     "name": "JBL Tune Flex 2 Headphones TWS Ghost Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 35,
+    "code": "JBLTFLEX2GBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTFLEX2GBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_302",
     "name": "JBL Tune Flex 2 Earbuds TWS Turquoise",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 71.21,
     "stock": 16,
+    "code": "JBLTFLEX2TQEAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTFLEX2TQEAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_303",
     "name": "JBL Headphones - TWS - EAR HOOK - Sense Lite Open Ear  Beige",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 73.42,
     "stock": 30,
+    "code": "JBLSENSELITEBEGAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSENSELITEBEGAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_304",
     "name": "JBL Headphones - TWS - EAR HOOK -a Sense Lite Open Eara",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 73.42,
     "stock": 167,
+    "code": "JBLSENSELITEBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSENSELITEBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_305",
     "name": "JBL Headphones - TWS - EAR HOOK - Sense Lite Open Ear Purple",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 73.42,
     "stock": 271,
+    "code": "JBLSENSELITEPURAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSENSELITEPURAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_306",
     "name": "JBL Headphones - TWS - EAR HOOK -a Sense Lite Open EaraWhite",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 73.42,
     "stock": 140,
+    "code": "JBLSENSELITEWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSENSELITEWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_307",
     "name": "JBL Headphones - TWS - EAR HOOK - Sense Pro -Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 117.29,
     "stock": 13,
+    "code": "JBLSENSEPROBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSENSEPROBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_308",
     "name": "Jbl - Tws - Ear Cuff -Soundgear Clips -  Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 90.55,
     "stock": 81,
+    "code": "JBLSNDGEARCLBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARCLBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_309",
     "name": "Jbl - Tws - Ear Cuff -Soundgear Clips - Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 90.55,
     "stock": 70,
+    "code": "JBLSNDGEARCLBLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARCLBLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_310",
     "name": "Jbl - Tws - Ear Cuff -Soundgear Clips - Copper",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 90.55,
     "stock": 23,
+    "code": "JBLSNDGEARCLCOPAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARCLCOPAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_311",
     "name": "Jbl - Tws - Ear Cuff -Soundgear Clips -  White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 90.55,
     "stock": 25,
+    "code": "JBLSNDGEARCLWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSNDGEARCLWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_312",
     "name": "JBLTourpro 3 Headphone - True wireless Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 247.16,
     "stock": 6,
+    "code": "JBLTOURPRO3BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTOURPRO3BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_313",
     "name": "JBLTourpro 3 Headphone True wireless Latte",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 247.16,
     "stock": 43,
+    "code": "JBLTOURPRO3LTTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLTOURPRO3LTTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_314",
     "name": "JBL Edurance race 2 Headphones - NC - Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 72.76,
     "stock": 65,
+    "code": "JBLENDURACE2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDURACE2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_315",
     "name": "JBL Edurance race 2 Headphones - NC - Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 72.76,
     "stock": 58,
+    "code": "JBLENDURACE2BLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDURACE2BLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_316",
     "name": "JBL Edurance race 2 Headphones - NC - White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 72.76,
     "stock": 29,
+    "code": "JBLENDURACE2WHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDURACE2WHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_317",
     "name": "JBL Headphones - TWS - EAR HOOK - Endurance Peak 4 - Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 81.47,
     "stock": 33,
+    "code": "JBLENDUPEAK4BLKLAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDUPEAK4BLKLAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_318",
     "name": "JBL Headphones Endurance Pace Blue",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 50.23,
     "stock": 40,
+    "code": "JBLENDUPACEBLUAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDUPACEBLUAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_319",
     "name": "JBL Headphones Endurance Pace White",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 50.23,
     "stock": 58,
+    "code": "JBLENDUPACEWHTAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDUPACEWHTAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_320",
     "name": "JBL Headphones Endurance Pace Black",
-    "category": "JBL - TWS",
     "brand": "JBL",
+    "category": "JBL - TWS",
+    "condition": "NUEVO",
     "cashPrice": 50.23,
     "stock": 12,
+    "code": "JBLENDUPACEBLKLAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLENDUPACEBLKLAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_321",
     "name": "JBL 3.1 Channel Sound Bar with Built-in Subwoofer Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 126.7,
     "stock": 66,
+    "code": "JBLSB510BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSB510BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_322",
     "name": "JBL Sistema de barra de sonido 3.1CH con subwoofer inalambr",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 190.05,
     "stock": 82,
+    "code": "JBLSB550BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSB550BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_323",
     "name": "JBL SB 580-Soundbar-Wireless Subwoofer-Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 228.26,
     "stock": 50,
+    "code": "JBLSB580BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSB580BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_324",
     "name": "JBL Soundbars SB595 - Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 259.71,
     "stock": 513,
+    "code": "JBLSB595BLKCA",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLSB595BLKCA"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_325",
     "name": "JBL Soundbar 300 M2 Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 306.49,
     "stock": 18,
+    "code": "JBLBAR300M2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLBAR300M2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_326",
     "name": "JBL Soundbar 800 M2 Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 779.69,
     "stock": 7,
+    "code": "JBLBAR800M2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLBAR800M2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_327",
     "name": "JBL Soundbar 1000 M2 Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 904.87,
     "stock": 5,
+    "code": "JBLBAR1000M2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLBAR1000M2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_328",
     "name": "JBL Soundbar 1300 M2 Black",
-    "category": "JBL - Soundbar",
     "brand": "JBL",
+    "category": "JBL - Soundbar",
+    "condition": "NUEVO",
     "cashPrice": 1248.33,
     "stock": 2,
+    "code": "JBLBAR1300XM2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLBAR1300XM2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_329",
     "name": "JBL Authentic / 8h bateria",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 292.93,
     "stock": 1,
+    "code": "JBLAUTH300BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLAUTH300BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_330",
     "name": "JBL Authentic / JBL ¨Profetional",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 486.34,
     "stock": 2,
+    "code": "JBLAUTH500BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLAUTH500BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_331",
     "name": "JBL Partybox wieless mic Black",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 114.68,
     "stock": 21,
+    "code": "JBLPBWIRELESSMICAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLPBWIRELESSMICAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_332",
     "name": "JBL PARTYBOX AI KARAOKE MIC-BLACK (VOCAL REMOVAL)",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 131.7,
     "stock": 40,
+    "code": "JBLEASYSINGMICSAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLEASYSINGMICSAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_333",
     "name": "JBL Partylight beam Partybox Acc Black",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 169.99,
     "stock": 70,
+    "code": "JBLPLBEAMAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLPLBEAMAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_334",
     "name": "JBL Party Box Encore Essential 2 Speaker Black",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 264.44,
     "stock": 214,
+    "code": "KT275XSV83",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV83"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_335",
     "name": "JBL Partybox Club\r\n 120\r\n+\r\nGO4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 371.62,
     "stock": 44,
+    "code": "KT274XSV00",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT274XSV00"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_336",
     "name": "JBL Partybox Club 120 Party Speaker White\r\n+\r\nGO4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 371.62,
     "stock": 32,
+    "code": "KT273XSV99",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT273XSV99"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_337",
     "name": "JBL Partybox Club 120 Party Speaker White\r\n+\r\nCover PB120 Black",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 370.1,
     "stock": 12,
+    "code": "KT267XSV96",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT267XSV96"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_338",
     "name": "JBL PARTYBOX STAGE \r\n320  \r\n+\r\nGO4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 493.85,
     "stock": 63,
+    "code": "KT271XSV85",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT271XSV85"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_339",
     "name": "Partybox 130 Black\r\n+\r\nGO4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 403.17,
     "stock": 149,
+    "code": "KT275XSV18",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV18"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_340",
     "name": "Partybox 130 White\r\n+\r\nGO4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 403.17,
     "stock": 40,
+    "code": "KT275XSV95",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV95"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_341",
     "name": "Partybox 330 Black \r\n+\r\nGrip Orange",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 578,
     "stock": 228,
+    "code": "KT275XSV96",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV96"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_342",
     "name": "JBL Partybox 520 Party Speaker \r\n+ \r\n1Tbuds \r\n1Tunebeam",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 698.29,
     "stock": 55,
+    "code": "KT275XSV94",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV94"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_343",
     "name": "JBL Partybox 520 Party Speaker + Soundgear",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 688.48,
     "stock": 50,
+    "code": "KT271XSV86",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT271XSV86"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_344",
     "name": "Partybox 720 + PartylightBEam",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 957.97,
     "stock": 165,
+    "code": "KT269XSV88",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT269XSV88"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_345",
     "name": "PartyBoxUltimate\r\n+\r\nCover\r\n+\r\nHK Aura4",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 1460.01,
     "stock": 25,
+    "code": "KT275XSV84",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV84"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_346",
     "name": "PartyBoxUltimate\r\n+\r\nCover\r\n+\r\n2 SenseLite uno negro y otro blanco",
-    "category": "JBL - Partybox",
     "brand": "JBL",
+    "category": "JBL - Partybox",
+    "condition": "NUEVO",
     "cashPrice": 1416.42,
     "stock": 25,
+    "code": "KT275XSV86",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "KT275XSV86"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_347",
     "name": "BandBox Solo / Para personas que tocan guitarra",
-    "category": "JBL - Bandbox",
     "brand": "JBL",
+    "category": "JBL - Bandbox",
+    "condition": "NUEVO",
     "cashPrice": 221.51,
     "stock": 40,
+    "code": "JBLBANDBOXSOLOAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBLBANDBOXSOLOAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_348",
     "name": "Jbl Eon One Compact\r\n+\r\nBuds2",
-    "category": "JBL - JBL PRO",
     "brand": "JBL",
+    "category": "JBL - JBL PRO",
+    "condition": "NUEVO",
     "cashPrice": 645.88,
     "stock": 4,
+    "code": "JBL Pro EON ONE Compact",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBL Pro EON ONE Compact"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_349",
     "name": "JBL EON One MK2\r\n5 canales, dbx y Lexicon DSP\r\n8 tweeters\r\nWoofer 10\"",
-    "category": "JBL - JBL PRO",
     "brand": "JBL",
+    "category": "JBL - JBL PRO",
+    "condition": "NUEVO",
     "cashPrice": 1295.9,
     "stock": 8,
+    "code": "JBL-EONONEMK2-NA",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "JBL-EONONEMK2-NA"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_350",
     "name": "HK Home Audio Luna 2 BT Speaker Black",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 131.51,
     "stock": 12,
+    "code": "HKLUNA2BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKLUNA2BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_351",
     "name": "HK Home Audio Luna 2 BT Speaker Mint",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 131.51,
     "stock": 9,
+    "code": "HKLUNA2MITAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKLUNA2MITAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_352",
     "name": "HK Home Audio Luna 2 BT Speaker Sand",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 131.51,
     "stock": 8,
+    "code": "HKLUNA2WSDAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKLUNA2WSDAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_353",
     "name": "Onyx 9 - Auracast",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 163.01,
     "stock": 5,
+    "code": "HKOS9BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKOS9BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_354",
     "name": "Aura Studio 4",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 182.31,
     "stock": 75,
+    "code": "HKAURAS4BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKAURAS4BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_355",
     "name": "GO + Play3",
-    "category": "JBL - Harman Kardon",
     "brand": "JBL",
+    "category": "JBL - Harman Kardon",
+    "condition": "NUEVO",
     "cashPrice": 267.5,
     "stock": 13,
+    "code": "HKGOPLAY3BLKAM",
     "sourceSheet": "JBL",
-    "variants": null,
-    "code": "HKGOPLAY3BLKAM"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_356",
     "name": "DJI Mic Mini ( 2 TX + 1 RX + Charging Case",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 119.42,
     "stock": 5,
+    "code": "CP.RN.00000433.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000433.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_357",
     "name": "DJI Mic Mini 2 Transmitter",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 40.66,
     "stock": 5,
+    "code": "CP.RN.00000531.02",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000531.02"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_358",
     "name": "DJI Mic Mini 2 (2 TX + 1 RX + Charging Case)",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 130.72,
     "stock": 5,
+    "code": "CP.RN.00000529.02",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000529.02"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_359",
     "name": "DJI Mic 2 Transmitter Pearl White",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 57.63,
     "stock": 5,
+    "code": "MM005DJI84",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI84"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_360",
     "name": "DJI Mic 2 (1 TX + 1 RX)",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 152,
     "stock": 5,
+    "code": "MM005DJI86",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI86"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_361",
     "name": "DJI Mic 3 Transmitter",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 102.77,
     "stock": 5,
+    "code": "CP.RN.00000478.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000478.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_362",
     "name": "DJI Mic 3 (1 TX + 1 RX)",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 235.28,
     "stock": 5,
+    "code": "CP.RN.00000479.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000479.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_363",
     "name": "DJI Mic 3 (2 TX + 1 RX + Charging Case)",
-    "category": "DJI - Microphones",
     "brand": "DJI",
+    "category": "DJI - Microphones",
+    "condition": "NUEVO",
     "cashPrice": 366.41,
     "stock": 5,
+    "code": "CP.RN.00000480.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.RN.00000480.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_364",
     "name": "DJI Camera Stabilizer RS 4 Mini",
-    "category": "DJI - Stabilizers",
     "brand": "DJI",
+    "category": "DJI - Stabilizers",
+    "condition": "NUEVO",
     "cashPrice": 336.46,
     "stock": 5,
+    "code": "MM005DJI41",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI41"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_365",
     "name": "DJI RS 4 Mini Combo",
-    "category": "DJI - Stabilizers",
     "brand": "DJI",
+    "category": "DJI - Stabilizers",
+    "condition": "NUEVO",
     "cashPrice": 413.99,
     "stock": 5,
+    "code": "MM005DJI67",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI67"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_366",
     "name": "DJI OSMO NANO (64GB)",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 312.86,
     "stock": 5,
+    "code": "CP.OS.00000461.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000461.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_367",
     "name": "DJI OSMO NANO (128GB)",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 346.26,
     "stock": 5,
+    "code": "CP.OS.00000460.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000460.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_368",
     "name": "Osmo 360 standar combo",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 446.46,
     "stock": 5,
+    "code": "CP.OS.00000441.05",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000441.05"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_369",
     "name": "Osmo 360 adventure combo",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 601.13,
     "stock": 5,
+    "code": "CP.OS.00000442.04",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000442.04"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_370",
     "name": "Osmo Pocket 3",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 526.83,
     "stock": 5,
+    "code": "CP.OS.00000301.03",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000301.03"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_371",
     "name": "Osmo Pocket 3 Creator Combo",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 469.17,
     "stock": 5,
+    "code": "CP.OS.00000302.0",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.OS.00000302.0"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_372",
     "name": "DJI RC Pro/ CP.MA.00000406.02",
-    "category": "DJI - Accesorios",
     "brand": "DJI",
+    "category": "DJI - Accesorios",
+    "condition": "NUEVO",
     "cashPrice": 650,
     "stock": 5,
+    "code": "CP.MA.00000406.02",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000406.02"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_373",
     "name": "Avata Neo single",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 203.6,
     "stock": 5,
+    "code": "MM005DJI56",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI56"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_374",
     "name": "DJI Neo 2 Drone Only",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 220.18,
     "stock": 5,
+    "code": "MM006DJI44",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM006DJI44"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_375",
     "name": "DJI Neo 2 Fly More Combo (Drone Only)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 322.5,
     "stock": 5,
+    "code": "MM006DJI43",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM006DJI43"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_376",
     "name": "DJI Neo 2 Motion Fly More Combo",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 596.73,
     "stock": 5,
+    "code": "MM006DJI42",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM006DJI42"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_377",
     "name": "DJI Mini 3 DJI RC GL",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 482.26,
-    "stock": 0,
+    "stock": 10,
+    "code": "6941565949271",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "6941565949271"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_378",
     "name": "DJI Drone Flip GL",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 456.44,
     "stock": 5,
+    "code": "MM005DJI69",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "MM005DJI69"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_379",
     "name": "DJI Drone Flip DJI RC 2 GL",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 625.49,
     "stock": 5,
+    "code": "CP.FP.00000180.04",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.FP.00000180.04"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_380",
     "name": "DJI Drone Flip Fly More Combo DJI RC 2 GL",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 602.35,
     "stock": 5,
+    "code": "190021117631 -190021117631",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "190021117631 -190021117631"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_381",
     "name": "DJI Avata 2 Fly More Combo (Single Battery)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 665.32,
     "stock": 5,
+    "code": "CP.FP.00000150.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.FP.00000150.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_382",
     "name": "DJI Avata 2 Fly More Combo (Three Batteries)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 1241.87,
     "stock": 5,
+    "code": "CP.FP.00000151.08",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.FP.00000151.08"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_383",
     "name": "DJI Lito X1",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 376,
     "stock": 5,
+    "code": "CP.MA.00000973.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000973.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_384",
     "name": "DJI Lito X1 Fly More Combo (DJI RC-N3)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 555.25,
     "stock": 5,
+    "code": "CP.MA.00000974.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000974.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_385",
     "name": "DJI Air 3S (DJI RC-N3)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 1105.11,
     "stock": 5,
+    "code": "CP.MA.00000814.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000814.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_386",
     "name": "DJI Air 3S Fly More Combo (DJI RC-N3)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 1425.87,
     "stock": 5,
+    "code": "CP.MA.00000815.03",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000815.03"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_387",
     "name": "DJI Air 3S Fly More Combo (DJI RC 2)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 1595.33,
     "stock": 5,
+    "code": "CP.MA.00000816.01",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000816.01"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_388",
     "name": "DJI Mini 5 Pro",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 802.03,
     "stock": 5,
+    "code": "CP.MA.00000838.04",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000838.04"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_389",
     "name": "DJI Mini 5 Pro Fly More Combo (DJI RC\u0002N3)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 994.13,
     "stock": 5,
+    "code": "CP.MA.00000876.03",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000876.03"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_390",
     "name": "DJI Mini 5 Pro Fly More Combo Plus (DJI RC2)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 1239.49,
     "stock": 5,
+    "code": "CP.MA.00000895.03",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000895.03"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_391",
     "name": "DJI Mini 4K (GL)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 395,
     "stock": 5,
+    "code": "CP.MA.00000787.02",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000787.02"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_392",
     "name": "DJI Mini 4K Fly More Combo (GL)",
-    "category": "DJI - Drones",
     "brand": "DJI",
+    "category": "DJI - Drones",
+    "condition": "NUEVO",
     "cashPrice": 477.12,
     "stock": 5,
+    "code": "CP.MA.00000788.02",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "CP.MA.00000788.02"
+    "variants": {
+      "condition": "NUEVO"
+    }
   },
   {
     "id": "prod_393",
     "name": "DJI Osmo Pocket 4 Creators combo",
-    "category": "DJI - Cameras",
     "brand": "DJI",
+    "category": "DJI - Cameras",
+    "condition": "NUEVO",
     "cashPrice": 693.96,
     "stock": 5,
+    "code": "6937224133082",
     "sourceSheet": "DJI NUEVO",
-    "variants": null,
-    "code": "6937224133082"
+    "variants": {
+      "condition": "NUEVO"
+    }
   }
 ]

@@ -36,6 +36,7 @@ export default async function handler(req, res) {
           name,
           brand,
           category,
+          condition,
           cash_price as "cashPrice",
           stock,
           code,
@@ -47,18 +48,19 @@ export default async function handler(req, res) {
         ORDER BY created_at ASC;
       `;
 
-      // Si la base de datos está vacía, sembramos automáticamente los 393 productos iniciales
+      // Si la base de datos está vacía, sembramos automáticamente los productos iniciales
       if (!rows || rows.length === 0) {
-        console.log('Sembrando 393 productos iniciales en Neon Postgres...');
+        console.log('Sembrando productos iniciales en Neon Postgres...');
         for (const p of initialProducts) {
           await sql`
             INSERT INTO products (
-              id, name, brand, category, cash_price, stock, code, source_sheet, variants
+              id, name, brand, category, condition, cash_price, stock, code, source_sheet, variants
             ) VALUES (
               ${p.id},
               ${p.name},
               ${p.brand || ''},
               ${p.category || ''},
+              ${p.condition || 'NUEVO'},
               ${Number(p.cashPrice) || 0},
               ${Number(p.stock) || 0},
               ${p.code || ''},
@@ -75,6 +77,7 @@ export default async function handler(req, res) {
             name,
             brand,
             category,
+            condition,
             cash_price as "cashPrice",
             stock,
             code,
@@ -90,6 +93,7 @@ export default async function handler(req, res) {
           seeded: true,
           data: seededRows.map(r => ({
             ...r,
+            condition: r.condition || (r.name.includes('(USADO)') ? 'USADO' : 'NUEVO'),
             cashPrice: Number(r.cashPrice),
             stock: Number(r.stock)
           }))
@@ -101,6 +105,7 @@ export default async function handler(req, res) {
         source: 'neon',
         data: rows.map(r => ({
           ...r,
+          condition: r.condition || (r.name.includes('(USADO)') ? 'USADO' : 'NUEVO'),
           cashPrice: Number(r.cashPrice),
           stock: Number(r.stock)
         }))
@@ -110,17 +115,19 @@ export default async function handler(req, res) {
     // POST: Agregar nuevo producto
     if (req.method === 'POST') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
-      const { id, name, brand, category, cashPrice, stock, code, sourceSheet, variants } = body;
+      const { id, name, brand, category, condition, cashPrice, stock, code, sourceSheet, variants } = body;
       const prodId = id || `prod_${Date.now()}`;
+      const prodCondition = condition || (name?.includes('(USADO)') ? 'USADO' : 'NUEVO');
 
       await sql`
         INSERT INTO products (
-          id, name, brand, category, cash_price, stock, code, source_sheet, variants, updated_at
+          id, name, brand, category, condition, cash_price, stock, code, source_sheet, variants, updated_at
         ) VALUES (
           ${prodId},
           ${name},
           ${brand || ''},
           ${category || ''},
+          ${prodCondition},
           ${Number(cashPrice) || 0},
           ${Number(stock) || 0},
           ${code || ''},
@@ -132,6 +139,7 @@ export default async function handler(req, res) {
           name = EXCLUDED.name,
           brand = EXCLUDED.brand,
           category = EXCLUDED.category,
+          condition = EXCLUDED.condition,
           cash_price = EXCLUDED.cash_price,
           stock = EXCLUDED.stock,
           code = EXCLUDED.code,
@@ -147,6 +155,7 @@ export default async function handler(req, res) {
           name,
           brand,
           category,
+          condition: prodCondition,
           cashPrice: Number(cashPrice) || 0,
           stock: Number(stock) || 0,
           code,
@@ -159,7 +168,7 @@ export default async function handler(req, res) {
     // PUT: Actualizar precio, stock o campos de un producto
     if (req.method === 'PUT') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
-      const { id, name, brand, category, cashPrice, stock, code, variants } = body;
+      const { id, name, brand, category, condition, cashPrice, stock, code, variants } = body;
 
       if (!id) {
         return res.status(400).json({ error: 'ID de producto requerido' });
@@ -170,6 +179,7 @@ export default async function handler(req, res) {
           name = COALESCE(${name}, name),
           brand = COALESCE(${brand}, brand),
           category = COALESCE(${category}, category),
+          condition = COALESCE(${condition}, condition),
           cash_price = COALESCE(${cashPrice !== undefined ? Number(cashPrice) : null}, cash_price),
           stock = COALESCE(${stock !== undefined ? Number(stock) : null}, stock),
           code = COALESCE(${code}, code),

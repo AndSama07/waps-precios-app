@@ -27,11 +27,6 @@ export default function ProductDetailModal() {
     showToast
   } = useApp();
 
-  const [selectedGrade, setSelectedGrade] = useState(() => {
-    if (selectedProduct?.variants?.newPrice) return 'newPrice';
-    return null;
-  });
-
   const [downPayment, setDownPayment] = useState(0);
 
   // Selección individual o múltiple de cuotas para la cotización
@@ -48,11 +43,6 @@ export default function ProductDetailModal() {
   // Actualizar estado cuando cambie el producto seleccionado
   useEffect(() => {
     if (selectedProduct) {
-      if (selectedProduct.variants?.newPrice) {
-        setSelectedGrade('newPrice');
-      } else {
-        setSelectedGrade(null);
-      }
       setDownPayment(0);
       if (selectedTerm && selectedTerm > 0) {
         setSelectedMonths([selectedTerm]);
@@ -64,11 +54,8 @@ export default function ProductDetailModal() {
 
   if (!selectedProduct) return null;
 
-  // Determinar precio base según grado seleccionado
-  const currentCashPrice = selectedGrade && selectedProduct.variants?.[selectedGrade]
-    ? selectedProduct.variants[selectedGrade]
-    : selectedProduct.cashPrice;
-
+  const isUsed = selectedProduct.condition === 'USADO' || (selectedProduct.name && selectedProduct.name.includes('(USADO)'));
+  const currentCashPrice = selectedProduct.cashPrice || 0;
   const calculation = calculateInstallments(currentCashPrice, commissionSettings, downPayment);
 
   // Manejar selección/deselección de plazos
@@ -103,7 +90,7 @@ export default function ProductDetailModal() {
 
   const formattedWhatsAppMsg = generateWhatsAppMessage(
     selectedProduct,
-    selectedGrade,
+    isUsed ? 'used95_100' : 'newPrice',
     downPayment,
     commissionSettings,
     messageOptions
@@ -131,14 +118,6 @@ export default function ProductDetailModal() {
     navigator.clipboard.writeText(formattedWhatsAppMsg);
     showToast('Cotización personalizada copiada al portapapeles');
   };
-
-  const grades = [
-    { key: 'newPrice', label: 'Nuevo Sellado', val: selectedProduct.variants?.newPrice },
-    { key: 'used95_100', label: 'Usado 95%-100%', val: selectedProduct.variants?.used95_100 },
-    { key: 'used90_94', label: 'Usado 90%-94%', val: selectedProduct.variants?.used90_94 },
-    { key: 'used85_89', label: 'Usado 85%-89%', val: selectedProduct.variants?.used85_89 },
-    { key: 'tradeIn', label: 'Trade-In 100%', val: selectedProduct.variants?.tradeIn }
-  ].filter(g => g.val && g.val > 0);
 
   return (
     <div
@@ -175,32 +154,31 @@ export default function ProductDetailModal() {
 
         {/* Contenido scrolleable */}
         <div className="p-4 sm:p-6 overflow-y-auto space-y-5">
-          {/* Selector de Grados / Variantes (si tiene) */}
-          {grades.length > 0 && (
-            <div className="bg-slate-800/60 p-3 sm:p-4 rounded-2xl border border-slate-700/50">
-              <label className="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">
-                Selecciona la condición / grado:
-              </label>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                {grades.map(g => (
-                  <button
-                    key={g.key}
-                    onClick={() => setSelectedGrade(g.key)}
-                    className={`flex flex-col p-2.5 rounded-xl border text-left transition-all ${
-                      selectedGrade === g.key
-                        ? 'bg-emerald-500/15 border-emerald-500 text-emerald-300 shadow-sm'
-                        : 'bg-slate-800 border-slate-700/80 text-slate-300 hover:border-slate-600'
-                    }`}
-                  >
-                    <span className="text-xs font-medium truncate">{g.label}</span>
-                    <span className="text-sm sm:text-base font-bold text-white mt-0.5">
-                      {formatCurrency(g.val)}
-                    </span>
-                  </button>
-                ))}
+          {/* Banner de Condición del Producto */}
+          <div className={`p-3.5 sm:p-4 rounded-2xl border flex items-center justify-between gap-3 ${
+            isUsed
+              ? 'bg-amber-500/10 border-amber-500/30 text-amber-300'
+              : 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300'
+          }`}>
+            <div className="flex items-center gap-2.5">
+              <span className={`w-3 h-3 rounded-full shrink-0 ${isUsed ? 'bg-amber-400' : 'bg-emerald-400'}`}></span>
+              <div>
+                <span className="text-xs sm:text-sm uppercase tracking-wider font-extrabold block">
+                  {isUsed ? '📱 Equipo Usado (Grado A 95% - 100%)' : '✨ Equipo Nuevo Sellado'}
+                </span>
+                <span className="text-[11px] text-slate-400">
+                  {isUsed ? 'Precio calculado exclusivamente para rango 95%-100%' : 'Garantía oficial completa'}
+                </span>
               </div>
             </div>
-          )}
+            <span className={`text-[11px] font-extrabold px-2.5 py-1 rounded-xl uppercase tracking-wider border shrink-0 ${
+              isUsed
+                ? 'bg-amber-500/20 text-amber-300 border-amber-500/40'
+                : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+            }`}>
+              {isUsed ? 'Usado 95-100%' : 'Nuevo'}
+            </span>
+          </div>
 
           {/* Tarjetas de Métodos de 1 Solo Pago (Efectivo vs Tarjeta +6%) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

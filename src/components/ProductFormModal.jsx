@@ -11,6 +11,7 @@ export default function ProductFormModal({ product, onClose }) {
     name: product?.name || '',
     brand: product?.brand || 'Apple',
     category: product?.category || 'IPHONE',
+    condition: product?.condition || (product?.name?.includes('(USADO)') ? 'USADO' : 'NUEVO'),
     cashPrice: product?.cashPrice || '',
     stock: product?.stock !== undefined ? product.stock : 10,
     code: product?.code || ''
@@ -50,19 +51,35 @@ export default function ProductFormModal({ product, onClose }) {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Nombre */}
-          <div>
-            <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
-              Nombre o Modelo del Producto *
-            </label>
-            <input
-              type="text"
-              required
-              value={formData.name}
-              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              placeholder="Ej. iPhone 18 Pro Max 256GB"
-              className="w-full px-3 py-2 bg-slate-800 text-white rounded-xl border border-slate-700 focus:border-blue-500 focus:outline-none text-sm"
-            />
+          {/* Nombre y Condición */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="sm:col-span-2">
+              <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
+                Nombre o Modelo del Producto *
+              </label>
+              <input
+                type="text"
+                required
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                placeholder="Ej. iPhone 16 Pro Max 256GB"
+                className="w-full px-3 py-2 bg-slate-800 text-white rounded-xl border border-slate-700 focus:border-blue-500 focus:outline-none text-sm"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">
+                Condición *
+              </label>
+              <select
+                value={formData.condition}
+                onChange={(e) => setFormData({ ...formData, condition: e.target.value })}
+                className="w-full px-3 py-2 bg-slate-800 text-white rounded-xl border border-slate-700 focus:border-blue-500 focus:outline-none text-sm font-semibold"
+              >
+                <option value="NUEVO">✨ Nuevo</option>
+                <option value="USADO">📱 Usado (95-100%)</option>
+              </select>
+            </div>
           </div>
 
           {/* Marca y Categoría */}

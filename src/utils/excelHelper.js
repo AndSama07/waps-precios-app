@@ -8,16 +8,12 @@ export function exportCatalogToExcel(products, filename = 'WAPS_PRECIOS_ACTUALIZ
     'ID': p.id,
     'CODIGO / SKU': p.code || '',
     'PRODUCTO': p.name,
+    'CONDICION': p.condition || (p.name.includes('(USADO)') ? 'USADO' : 'NUEVO'),
     'MARCA': p.brand || '',
     'CATEGORIA': p.category || '',
     'PRECIO EFECTIVO': p.cashPrice,
     'STOCK / CANTIDAD': p.stock,
-    'ORIGEN': p.sourceSheet || 'MANUAL',
-    'NUEVO': p.variants?.newPrice || '',
-    'USADO 95-100%': p.variants?.used95_100 || '',
-    'USADO 90-94%': p.variants?.used90_94 || '',
-    'USADO 85-89%': p.variants?.used85_89 || '',
-    'TRADE-IN': p.variants?.tradeIn || ''
+    'ORIGEN': p.sourceSheet || 'MANUAL'
   }));
 
   const worksheet = XLSX.utils.json_to_sheet(exportData);

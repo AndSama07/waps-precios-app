@@ -270,7 +270,18 @@ export default function AdminPanel() {
                 {filteredAdminProducts.slice(0, 100).map(p => (
                   <tr key={p.id} className="hover:bg-slate-800/40 transition-colors">
                     <td className="py-2.5 px-3 sm:px-4">
-                      <div className="font-bold text-white leading-tight">{p.name}</div>
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className="font-bold text-white leading-tight">{p.name}</span>
+                        {(p.condition === 'USADO' || p.name?.includes('(USADO)')) ? (
+                          <span className="text-[9px] bg-amber-500/20 text-amber-300 font-extrabold px-1.5 py-0.5 rounded border border-amber-500/30">
+                            USADO 95-100%
+                          </span>
+                        ) : (
+                          <span className="text-[9px] bg-emerald-500/15 text-emerald-300 font-bold px-1.5 py-0.5 rounded border border-emerald-500/20">
+                            NUEVO
+                          </span>
+                        )}
+                      </div>
                       {p.code && <div className="text-[10px] text-slate-500 font-mono">{p.code}</div>}
                     </td>
                     <td className="py-2.5 px-2 sm:px-3 text-slate-300 font-medium">

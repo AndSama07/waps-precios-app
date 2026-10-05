@@ -47,6 +47,7 @@ export function AppProvider({ children }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('ALL');
   const [selectedBrand, setSelectedBrand] = useState('ALL');
+  const [selectedCondition, setSelectedCondition] = useState('ALL'); // 'ALL' | 'NUEVO' | 'USADO'
   const [selectedTerm, setSelectedTerm] = useState(12); // Default to 12 months for quick installment viewing
   const [inStockOnly, setInStockOnly] = useState(false);
   const [sortBy, setSortBy] = useState('featured'); // 'featured', 'price-asc', 'price-desc', 'name-asc'
@@ -276,6 +277,12 @@ export function AppProvider({ children }) {
       return false;
     }
 
+    if (selectedCondition !== 'ALL') {
+      const isUsed = p.condition === 'USADO' || (p.name && p.name.includes('(USADO)'));
+      if (selectedCondition === 'USADO' && !isUsed) return false;
+      if (selectedCondition === 'NUEVO' && isUsed) return false;
+    }
+
     if (inStockOnly && p.stock <= 0) {
       return false;
     }
@@ -305,6 +312,8 @@ export function AppProvider({ children }) {
         setSelectedCategory,
         selectedBrand,
         setSelectedBrand,
+        selectedCondition,
+        setSelectedCondition,
         selectedTerm,
         setSelectedTerm,
         inStockOnly,

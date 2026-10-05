@@ -17,16 +17,17 @@ export default async function handler(req, res) {
     // Limpiar tabla de productos
     await sql`TRUNCATE TABLE products;`;
 
-    // Insertar los 393 productos
+    // Insertar los productos separados (Nuevos y Usados)
     for (const p of initialProducts) {
       await sql`
         INSERT INTO products (
-          id, name, brand, category, cash_price, stock, code, source_sheet, variants
+          id, name, brand, category, condition, cash_price, stock, code, source_sheet, variants
         ) VALUES (
           ${p.id},
           ${p.name},
           ${p.brand || ''},
           ${p.category || ''},
+          ${p.condition || 'NUEVO'},
           ${Number(p.cashPrice) || 0},
           ${Number(p.stock) || 0},
           ${p.code || ''},
@@ -35,6 +36,9 @@ export default async function handler(req, res) {
         )
         ON CONFLICT (id) DO UPDATE SET
           name = EXCLUDED.name,
+          brand = EXCLUDED.brand,
+          category = EXCLUDED.category,
+          condition = EXCLUDED.condition,
           cash_price = EXCLUDED.cash_price,
           stock = EXCLUDED.stock;
       `;

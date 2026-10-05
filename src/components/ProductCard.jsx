@@ -128,14 +128,20 @@ export default function ProductCard({ product, isSelected }) {
           {product.name}
         </h3>
 
-        {/* Variantes disponibles (ej. iPhone) */}
-        {product.variants?.used95_100 && (
-          <div className="mt-1 flex items-center gap-1 flex-wrap">
-            <span className="text-[10px] bg-indigo-500/15 text-indigo-300 border border-indigo-500/30 px-1.5 py-0.5 rounded font-medium">
-              Nuevo & Usados disponibles
+        {/* Badge de Condición: NUEVO o USADO 95%-100% */}
+        <div className="mt-1.5 flex items-center gap-1.5 flex-wrap">
+          {(product.condition === 'USADO' || product.name?.includes('(USADO)')) ? (
+            <span className="text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1 shadow-sm">
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+              Usado 95%-100%
             </span>
-          </div>
-        )}
+          ) : (
+            <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              Nuevo
+            </span>
+          )}
+        </div>
       </div>
 
       {/* Bloque de Precios y Cuotas */}
