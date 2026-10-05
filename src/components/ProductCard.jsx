@@ -12,8 +12,10 @@ import {
   Share2,
   ExternalLink,
   CreditCard,
-  Banknote
+  Banknote,
+  Copy
 } from 'lucide-react';
+import { WhatsAppIcon, MessengerIcon, InstagramIcon } from './SocialIcons';
 
 export default function ProductCard({ product, isSelected }) {
   const {
@@ -41,27 +43,42 @@ export default function ProductCard({ product, isSelected }) {
     return <Zap className="w-4 h-4 text-teal-400" />;
   };
 
-  const handleShareWhatsApp = (e) => {
-    e.stopPropagation();
-    // Enviar con el plazo seleccionado en la barra superior (ej: 12 meses)
+  const getQuoteMessage = () => {
     const options = {
       selectedMonths: selectedTerm && selectedTerm > 0 ? [selectedTerm] : [],
       includeCash: true,
       includeCardSingle: true
     };
-    const message = generateWhatsAppMessage(product, null, 0, commissionSettings, options);
+    return generateWhatsAppMessage(product, null, 0, commissionSettings, options);
+  };
+
+  const handleShareWhatsApp = (e) => {
+    e.stopPropagation();
+    const message = getQuoteMessage();
     const encoded = encodeURIComponent(message);
     window.open(`https://api.whatsapp.com/send?text=${encoded}`, '_blank');
   };
 
+  const handleShareMessenger = (e) => {
+    e.stopPropagation();
+    const message = getQuoteMessage();
+    navigator.clipboard.writeText(message);
+    showToast('¡Cotización copiada! Pégala en el chat de Messenger');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    window.open(isMobile ? 'https://m.me/' : 'https://www.messenger.com/', '_blank');
+  };
+
+  const handleShareInstagram = (e) => {
+    e.stopPropagation();
+    const message = getQuoteMessage();
+    navigator.clipboard.writeText(message);
+    showToast('¡Cotización copiada! Pégala en el chat de Instagram');
+    window.open('https://www.instagram.com/direct/inbox/', '_blank');
+  };
+
   const handleCopyQuote = (e) => {
     e.stopPropagation();
-    const options = {
-      selectedMonths: selectedTerm && selectedTerm > 0 ? [selectedTerm] : [],
-      includeCash: true,
-      includeCardSingle: true
-    };
-    const message = generateWhatsAppMessage(product, null, 0, commissionSettings, options);
+    const message = getQuoteMessage();
     navigator.clipboard.writeText(message);
     showToast(`Cotización ${selectedTerm > 0 ? `(${selectedTerm}M)` : ''} copiada`);
   };
@@ -134,11 +151,11 @@ export default function ProductCard({ product, isSelected }) {
           </span>
         </div>
 
-        {/* Tarjeta 1 solo pago (+6%) */}
+        {/* Tarjeta 1 solo pago */}
         <div className="flex items-baseline justify-between text-xs text-slate-400">
           <span className="flex items-center gap-1 text-[11px]">
             <CreditCard className="w-3.5 h-3.5 text-blue-400" />
-            Tarjeta (1 pago +6%):
+            Tarjeta u otro método 1 pago:
           </span>
           <span className="font-bold text-blue-300">
             {formatCurrency(calculation.cardSingleTotal)}
@@ -168,23 +185,36 @@ export default function ProductCard({ product, isSelected }) {
           </div>
         )}
 
-        {/* Botones de acción rápida */}
-        <div className="mt-2.5 grid grid-cols-2 gap-2">
-          <button
-            onClick={handleCopyQuote}
-            className="flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold border border-slate-700 transition-colors"
-            title="Copiar cotización"
-          >
-            <Share2 className="w-3.5 h-3.5 text-slate-400" />
-            <span>Copiar</span>
-          </button>
+        {/* Botones de acción rápida: WhatsApp, Messenger, Instagram, Copiar */}
+        <div className="mt-2.5 flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
           <button
             onClick={handleShareWhatsApp}
-            className="flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold shadow-sm transition-colors"
-            title="Enviar a cliente por WhatsApp"
+            className="flex-1 flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-sm transition-all active:scale-95"
+            title="Enviar por WhatsApp"
           >
+            <WhatsAppIcon className="w-3.5 h-3.5" />
             <span>WhatsApp</span>
-            <ExternalLink className="w-3 h-3 text-emerald-200" />
+          </button>
+          <button
+            onClick={handleShareMessenger}
+            className="p-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white transition-all active:scale-95"
+            title="Enviar por Messenger"
+          >
+            <MessengerIcon className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={handleShareInstagram}
+            className="p-2 rounded-xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white hover:opacity-90 transition-all active:scale-95"
+            title="Enviar por Instagram"
+          >
+            <InstagramIcon className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={handleCopyQuote}
+            className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-all active:scale-95"
+            title="Copiar cotización"
+          >
+            <Copy className="w-3.5 h-3.5" />
           </button>
         </div>
       </div>

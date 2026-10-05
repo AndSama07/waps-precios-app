@@ -16,6 +16,7 @@ import {
   Eye,
   Copy
 } from 'lucide-react';
+import { WhatsAppIcon, MessengerIcon, InstagramIcon } from './SocialIcons';
 
 export default function ProductDetailModal() {
   const {
@@ -111,6 +112,19 @@ export default function ProductDetailModal() {
   const handleShareWhatsApp = () => {
     const encoded = encodeURIComponent(formattedWhatsAppMsg);
     window.open(`https://api.whatsapp.com/send?text=${encoded}`, '_blank');
+  };
+
+  const handleShareMessenger = () => {
+    navigator.clipboard.writeText(formattedWhatsAppMsg);
+    showToast('¡Cotización copiada! Pégala en el chat de Messenger');
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    window.open(isMobile ? 'https://m.me/' : 'https://www.messenger.com/', '_blank');
+  };
+
+  const handleShareInstagram = () => {
+    navigator.clipboard.writeText(formattedWhatsAppMsg);
+    showToast('¡Cotización copiada! Pégala en el chat de Instagram');
+    window.open('https://www.instagram.com/direct/inbox/', '_blank');
   };
 
   const handleCopyQuote = () => {
@@ -213,17 +227,17 @@ export default function ProductDetailModal() {
                     onChange={(e) => setIncludeCash(e.target.checked)}
                     className="rounded accent-emerald-500 cursor-pointer"
                   />
-                  <span className="text-[11px]">Enviar en WhatsApp</span>
+                  <span className="text-[11px]">Incluir en cotización</span>
                 </label>
               </div>
             </div>
 
-            {/* Tarjeta 1 solo pago (+6%) */}
+            {/* Tarjeta 1 solo pago */}
             <div className="bg-gradient-to-br from-blue-950/40 via-slate-800 to-slate-850 p-4 rounded-2xl border border-blue-500/40 shadow-sm relative">
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-bold text-blue-400 uppercase tracking-wider flex items-center gap-1.5">
                   <CreditCard className="w-4 h-4 text-blue-400" />
-                  Tarjeta (1 Solo Pago)
+                  Tarjeta u otro método (1 Pago)
                 </span>
                 <span className="text-[10px] bg-blue-500/20 text-blue-300 font-bold px-1.5 py-0.5 rounded">
                   +{calculation.baseRatePercent}% Recargo
@@ -243,7 +257,7 @@ export default function ProductDetailModal() {
                     onChange={(e) => setIncludeCardSingle(e.target.checked)}
                     className="rounded accent-blue-500 cursor-pointer"
                   />
-                  <span className="text-[11px]">Enviar en WhatsApp</span>
+                  <span className="text-[11px]">Incluir en cotización</span>
                 </label>
               </div>
             </div>
@@ -469,34 +483,54 @@ export default function ProductDetailModal() {
         </div>
 
         {/* Barra de Acciones Fijas al Pie */}
-        <div className="p-4 sm:p-5 border-t border-slate-800 bg-slate-900/95 flex flex-col sm:flex-row items-center justify-between gap-3 sticky bottom-0 z-10 backdrop-blur">
+        <div className="p-3.5 sm:p-5 border-t border-slate-800 bg-slate-900/95 flex flex-col sm:flex-row items-center justify-between gap-3 sticky bottom-0 z-10 backdrop-blur">
           <div className="text-xs text-slate-400 text-center sm:text-left">
             {selectedMonths.length > 0 ? (
               <span>
-                Se enviarán <strong className="text-emerald-400">{selectedMonths.length} cuotas</strong> a WhatsApp.
+                Se incluirán <strong className="text-emerald-400">{selectedMonths.length} cuotas</strong> en la cotización.
               </span>
             ) : (
               <span className="text-amber-400 font-semibold">
-                Solo se enviarán los precios de contado (sin cuotas).
+                Solo se incluirán los precios de contado (sin cuotas).
               </span>
             )}
           </div>
 
-          <div className="flex items-center gap-2.5 w-full sm:w-auto">
+          <div className="flex items-center gap-2 w-full sm:w-auto flex-wrap sm:flex-nowrap justify-stretch sm:justify-end">
             <button
               onClick={handleCopyQuote}
-              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs sm:text-sm border border-slate-700 transition-all active:scale-95 shadow-md"
+              className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white font-semibold text-xs border border-slate-700 transition-all active:scale-95 shadow-sm"
+              title="Copiar texto de cotización"
             >
-              <Share2 className="w-4 h-4 text-slate-300" />
-              <span>Copiar Cotización</span>
+              <Copy className="w-4 h-4 text-slate-300" />
+              <span>Copiar</span>
+            </button>
+
+            <button
+              onClick={handleShareMessenger}
+              className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-all active:scale-95 shadow-md shadow-blue-600/20"
+              title="Enviar cotización por Messenger"
+            >
+              <MessengerIcon className="w-4 h-4" />
+              <span>Messenger</span>
+            </button>
+
+            <button
+              onClick={handleShareInstagram}
+              className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded-xl bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 text-white font-semibold text-xs transition-all active:scale-95 shadow-md shadow-rose-500/20 hover:opacity-95"
+              title="Enviar cotización por Instagram"
+            >
+              <InstagramIcon className="w-4 h-4" />
+              <span>Instagram</span>
             </button>
 
             <button
               onClick={handleShareWhatsApp}
-              className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-bold text-xs sm:text-sm transition-all active:scale-95 shadow-lg shadow-emerald-500/20"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-bold text-xs sm:text-sm transition-all active:scale-95 shadow-lg shadow-emerald-500/20"
+              title="Enviar cotización por WhatsApp"
             >
-              <span>Enviar por WhatsApp</span>
-              <ExternalLink className="w-4 h-4" />
+              <WhatsAppIcon className="w-4 h-4" />
+              <span>WhatsApp</span>
             </button>
           </div>
         </div>

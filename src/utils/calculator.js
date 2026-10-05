@@ -117,7 +117,7 @@ export function generateWhatsAppMessage(
     message += `• *Efectivo o Transferencia:* ${formatCurrency(price)}\n`;
   }
   if (includeCardSingle) {
-    message += `• *Tarjeta u otro método (1 pago +${calculation.baseRatePercent}%):* ${formatCurrency(calculation.cardSingleTotal)}\n`;
+    message += `• *Tarjeta u otro método 1 pago:* ${formatCurrency(calculation.cardSingleTotal)}\n`;
   }
 
   // Anticipo / Prima si aplica
